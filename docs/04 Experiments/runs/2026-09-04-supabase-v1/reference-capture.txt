@@ -1,0 +1,270 @@
+Window: "Supabase | The Postgres Development Platform", App: Google Chrome.
+0 standard window Supabase | The Postgres Development Platform - Google Chrome - budi, URL: supabase.com/, Secondary Actions: Raise
+	1 container Supabase | The Postgres Development Platform - Google Chrome - budi, URL: supabase.com/
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop up button View site information
+					9 text field (settable) Description: Address and search bar, Value: supabase.com, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop up button 1Password
+Has access to this site
+					13 pop up button ChatGPT
+Has access to this site
+					14 pop up button Extensions
+				15 button budi
+				16 pop up button Chrome
+			17 container
+				18 HTML content Supabase | The Postgres Development Platform, URL: supabase.com/
+					19 link Description: Skip to content, Value: supabase.com/#main
+					20 container
+						21 button Dismiss announcement
+						22 container
+							23 text Supabase Select 2026  is coming October 2
+							24 link Description: Apply to attend, Value: select.supabase.com/
+					25 container
+						26 container
+							27 link Description: Supabase Logo, Value: supabase.com/
+							28 container Main
+								29 content list
+									30 button Product
+									31 button Developers
+									32 button Solutions
+									33 link Description: Pricing, Value: supabase.com/pricing
+									34 link Description: Docs, Value: supabase.com/docs
+									35 link Description: Blog, Value: supabase.com/blog
+							36 link Description: 108.8K, Value: github.com/supabase/supabase
+							37 link Description: Sign in, Value: supabase.com/dashboard
+							38 link Description: Start your project, Value: supabase.com/dashboard/sign-up
+					39 container
+						40 container
+							41 heading Build in a weekend Scale to millions, Value: 1
+								42 text Build in a weekend Scale to millions
+							43 text Start your project with a Postgres database. Add Authentication, Data APIs, Edge Functions, Realtime Data, Storage, and Vector embeddings.
+							44 link Description: Start your project, Value: supabase.com/dashboard/sign-up
+							45 link Description: Request a demo, Value: supabase.com/contact/sales
+						46 container
+							47 link Value: supabase.com/database, Description: Postgres Database Every project is a full Postgres database, the world's most trusted relational database. 100% portable Built-in Auth with RLS Easy to extend
+							48 link Description: Authentication Add user sign ups and logins, securing your data with Row Level Security., Value: supabase.com/auth
+							49 link Description: Edge Functions Easily write custom code without deploying or scaling servers., Value: supabase.com/edge-functions
+							50 link Description: Storage Store, organize, and serve large files, from videos to images., Value: supabase.com/storage
+							51 link Description: Realtime Build multiplayer experiences with real-time data synchronization., Value: supabase.com/realtime
+							52 link Value: supabase.com/modules/vector, Description: Vector Integrate your favorite ML-models to store, index and search vector embeddings. OpenAI logo OpenAI Hugging Face logo Hugging Face
+							53 link Description: Data APIs Instant ready-to-use REST APIs., Value: supabase.com/docs/guides/api
+							54 text Use one or all.  Best of breed products. Integrated as a platform.
+						55 text Trusted by fast-growing companies worldwide
+						56 content list Trusted by fast-growing companies worldwide
+							57 image Lovable
+							58 image Mozilla
+							59 image Pwc
+							60 image Figma
+							61 image V0
+							62 image Bolt
+							63 image Github
+							64 image Betashares
+							65 image Mobbin
+							66 image Resend
+							67 image Langchain
+							68 image 1Password
+						69 container
+							70 heading Stay productive and manage your app without leaving the dashboard, Value: 3
+								71 text Stay productive and manage your app without leaving the dashboard
+							72 tab group
+								73 tab (selected) Table Editor, Value: 1
+								74 tab (settable, integer) SQL Editor, Value: 0
+								75 tab (settable, integer) RLS Policies, Value: 0
+						76 container
+							77 heading Use Supabase with React, Value: 3
+								78 text Use Supabase with React
+							79 tab group Framework
+								80 tab (selected) Description: React, Value: 1
+								81 tab (settable, integer) Description: Next.js, Value: 0
+								82 tab (settable, integer) Description: Flutter, Value: 0
+								83 tab (settable, integer) Description: Svelte, Value: 0
+								84 tab (settable, integer) Description: Vue, Value: 0
+								85 tab (settable, integer) Description: Nuxt, Value: 0
+							86 container React code example
+								87 container
+									88 text import  { createClient }  from  ' @supabase/supabase-js ' const  supabase  =  createClient (   process.env. SUPABASE_URL ,   process.env. SUPABASE_ANON_KEY ) export  default  function  App () {   const  [ todos ,  setTodos ]  =  useState ([])   useEffect (()  =>  {     supabase. from ( ' todos ' ). select ( ' * ' )       . then (({ data })  =>  setTodos (data))   }, [])   return  < TodoList  items = {todos} /> }
+								89 link Description: Read docs for React, Value: supabase.com/docs/guides/getting-started/quickstarts/reactjs
+						90 container
+							91 heading Kickstart your next project with production ready templates, Value: 3
+								92 text Kickstart your next project with production ready templates
+							93 link Description: View all examples, Value: supabase.com/docs/guides/examples
+							94 link Value: github.com/supabase-community/nextjs-subscription-payments, Description: Stripe Subscriptions Starter The all-in-one subscription starter kit for high-performance SaaS applications, powered by Stripe, Supabase, and Vercel. Pricing page with subscription tiers
+							95 link Value: github.com/vercel/next.js/tree/canary/examples/with-supabase, Description: Next.js Starter A Next.js App Router template configured with cookie-based auth using Supabase, TypeScript and Tailwind CSS. Dashboard with sidebar navigation and data grid
+							96 link Value: github.com/supabase-community/vercel-ai-chatbot, Description: AI Chatbot An open-source AI chatbot app template built with Next.js, the Vercel AI SDK, OpenAI, and Supabase.
+							97 link Value: github.com/langchain-ai/langchain-nextjs-template, Description: LangChain + Next.js Starter Starter template and example use-cases for LangChain projects in Next.js, including chat, agents, and retrieval.
+							98 link Value: github.com/supabase/supabase/tree/master/examples/user-management/flutter-user-management, Description: Flutter User Management Get started with Supabase and Flutter by building a user management app with auth, file storage, and database.
+							99 link Value: github.com/supabase-community/create-t3-turbo, Description: Expo React Native Starter An extended version of create-t3-turbo implementing authentication on both the web and mobile applications.
+						100 container
+							101 heading How industry leaders are building with Supabase, Value: 3
+								102 text How industry leaders are building with Supabase
+							103 link Description: More customer stories, Value: supabase.com/customers
+						104 container
+							105 button Lovable
+								106 image Lovable
+								107 container
+									108 text Lovable Powering millions of AI-generated apps with a complete Supabase backend. Lovable is about unlocking creativity for anyone. Only 1% of the population knows how to code. Lovable has unlocked that ability for the other 99%.
+									109 image Bryan Byrne, Product Manager, Lovable
+									110 text Bryan Byrne, Product Manager, Lovable
+									111 link Description: Read the story →, Value: supabase.com/customers/lovable
+							112 button eXp Realty
+								113 image eXp Realty
+							114 button Phoenix Energy
+								115 image Phoenix Energy
+							116 button Chatbase
+								117 image Chatbase
+							118 button Rally
+								119 image Rally
+						120 heading Join the community, Value: 3
+							121 text Join the community
+						122 text Discover what our community has to say about their Supabase experience.
+						123 link Description: Join us on Discord, Value: discord.supabase.com/
+						124 container
+							125 heading Open source from day one, Value: 2
+								126 text Open source from day one
+							127 text Supabase is built in the open because we believe great developer tools should be transparent, inspectable, and owned by the community. Read, contribute, self-host. You're never locked in, and always in control.
+							128 link Description: View on GitHub, Value: github.com/supabase
+						129 container
+							130 heading Build in a weekend, scale to millions, Value: 2
+								131 text Build in a weekend,  scale to millions
+							132 link Description: Start your project, Value: supabase.com/dashboard/sign-up
+							133 link Description: Request a demo, Value: supabase.com/contact/sales
+					134 container
+						135 heading Footer, Value: 2
+							136 text Footer
+						137 text We protect your data.
+						138 link Description: More on Security, Value: supabase.com/security
+						139 content list
+							140 container
+								141 text SOC2 Type 2 Certified
+							142 container
+								143 text HIPAA Compliant
+							144 container
+								145 text ISO 27001 Certified
+						146 link Description: Supabase Logo, Value: supabase.com/
+						147 link Description: Twitter, Value: twitter.com/supabase
+						148 link Description: GitHub, Value: github.com/supabase
+						149 link Description: Discord, Value: discord.supabase.com/
+						150 link Description: Youtube, Value: youtube.com/c/supabase
+						151 link Description: TikTok, Value: tiktok.com/@supabase.com
+						152 link Description: Instagram, Value: instagram.com/supabasecom
+						153 container
+							154 text Get product updates and news from Supabase.
+							155 email (settable) Description: Email for newsletter, Placeholder: Your email
+							156 button Subscribe
+						157 heading Product, Value: 6
+							158 text Product
+						159 content list
+							160 link Description: Pricing, Value: supabase.com/pricing
+							161 link Description: Database, Value: supabase.com/database
+							162 link Description: Auth, Value: supabase.com/auth
+							163 link Description: Functions, Value: supabase.com/edge-functions
+							164 link Description: Realtime, Value: supabase.com/realtime
+							165 link Description: Storage, Value: supabase.com/storage
+							166 link Description: Vector, Value: supabase.com/modules/vector
+							167 link Description: Cron, Value: supabase.com/modules/cron
+							168 link Description: Feature Catalog, Value: supabase.com/features
+							169 link Description: Launch Week, Value: supabase.com/launch-week
+						170 heading Solutions, Value: 6
+							171 text Solutions
+						172 content list
+							173 link Description: AI Builders, Value: supabase.com/solutions/ai-builders
+							174 link Description: No Code, Value: supabase.com/solutions/no-code
+							175 link Description: Beginners, Value: supabase.com/solutions/beginners
+							176 link Description: Developers, Value: supabase.com/solutions/developers
+							177 link Description: Postgres Devs, Value: supabase.com/solutions/postgres-developers
+							178 link Description: Vibe Coders, Value: supabase.com/solutions/vibe-coders
+							179 link Description: Hackathon Contestants, Value: supabase.com/solutions/hackathon
+							180 link Description: Startups, Value: supabase.com/solutions/startups
+							181 link Description: Agencies, Value: supabase.com/solutions/agencies
+							182 link Description: Enterprise, Value: supabase.com/solutions/enterprise
+							183 link Description: Innovation Teams, Value: supabase.com/solutions/innovation-teams
+							184 link Description: Hosted Postgres, Value: supabase.com/solutions/hosted-postgres
+							185 link Description: B2B SaaS, Value: supabase.com/solutions/b2b-saas
+							186 link Description: FinServ, Value: supabase.com/solutions/finserv
+							187 link Description: Healthcare, Value: supabase.com/solutions/healthcare
+							188 link Description: Agents, Value: supabase.com/solutions/agents
+							189 link Description: Switch from Firebase, Value: supabase.com/solutions/switch-from-firebase
+							190 link Description: Switch from Neon, Value: supabase.com/solutions/switch-from-neon
+						191 heading Resources, Value: 6
+							192 text Resources
+						193 content list
+							194 link Description: Blog, Value: supabase.com/blog
+							195 link Description: Support, Value: supabase.com/support
+							196 link Description: System Status, Value: status.supabase.com/
+							197 link Description: Become a Partner, Value: supabase.com/partners
+							198 link Description: Partner Catalog, Value: supabase.com/partners/catalog
+							199 link Description: Brand Assets, Value: supabase.com/brand-assets
+							200 link Description: Security & Compliance, Value: supabase.com/security
+							201 link Description: Regions, Value: supabase.com/regions
+							202 link Description: SOC2, Value: supabase.com/security
+							203 link Description: HIPAA, Value: forms.supabase.com/hipaa2
+						204 heading Developers, Value: 6
+							205 text Developers
+						206 content list
+							207 link Description: Documentation, Value: supabase.com/docs
+							208 link Description: Supabase Library, Value: supabase.com/library
+							209 link Description: Changelog, Value: supabase.com/changelog
+							210 link Description: RSS, Value: supabase.com/rss.xml
+						211 heading Community, Value: 6
+							212 text Community
+						213 content list
+							214 link Description: Events & Webinars, Value: supabase.com/events
+							215 link Description: SupaSquad, Value: supabase.com/supasquad
+							216 link Description: Contributing, Value: github.com/supabase/supabase/blob/master/CONTRIBUTING.md
+							217 link Description: Open Source, Value: supabase.com/open-source
+							218 link Description: DevTo, Value: dev.to/supabase
+						219 heading Company, Value: 6
+							220 text Company
+						221 content list
+							222 link Description: Company, Value: supabase.com/company
+							223 link Description: Careers, Value: supabase.com/careers
+							224 link Description: General Availability, Value: supabase.com/ga
+							225 link Description: Legal Hub, Value: supabase.com/legal
+							226 link Description: Privacy Policy, Value: supabase.com/privacy
+							227 pop up button Privacy Settings
+								228 text Privacy Settings
+							229 link Description: Acceptable Use Policy, Value: supabase.com/aup
+							230 link Description: Humans.txt, Value: supabase.com/humans.txt
+							231 link Description: Lawyers.txt, Value: supabase.com/lawyers.txt
+							232 link Description: Security.txt, Value: supabase.com/.well-known/security.txt
+							233 link Description: Contact Us, Value: supabase.com/contact-us
+						234 text © Supabase Inc
+						235 pop up button Toggle theme
+							236 image
+							237 text Toggle theme
+			238 pop up button Tab Search
+			239 container
+				240 tab group
+					241 tab (settable, boolean) Description: Facebook Marketplace | Facebook - Memory usage - 456 MB, Value: off
+						242 button Close
+					243 tab (settable, boolean) Description: Arsent Dental Gianyar | Layanan dan Harga Perawatan Gigi - Memory usage - 127 MB, Value: off
+						244 button Close
+					245 tab (settable, boolean) Description: Book Dog Boarding, Cat Sitting, Walking & Training - Rover.com - Memory usage - 187 MB, Value: off
+						246 button Close
+					247 tab (selected, settable, boolean) Description: Supabase | The Postgres Development Platform, Value: on
+						248 button Close
+			249 button New Tab
+			250 button Open Gemini in Chrome
+	251 close button
+	252 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	253 minimize button
+254 menu bar
+	255 Chrome
+	256 File
+	257 Edit
+	258 View
+	259 History
+	260 Bookmarks
+	261 Profiles
+	262 Tab
+	263 Window
+	264 Help
+
+The focused UI element is 18 HTML content Supabase | The Postgres Development Platform, URL: supabase.com/

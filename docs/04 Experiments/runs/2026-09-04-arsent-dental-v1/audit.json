@@ -1,0 +1,380 @@
+{
+  "audit_id": "2026-09-04-arsent-dental-v1",
+  "status": "fail",
+  "planned_sessions": 77,
+  "accepted_sessions": 1,
+  "ledger_attempts": 13,
+  "failed_attempts": 12,
+  "errors": [
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0002"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0003"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0004"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0005"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0006"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0007"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0008"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0009"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0010"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0011"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0012"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0013"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0014"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0015"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0016"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0017"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0018"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0019"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0020"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0021"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0022"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0023"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0024"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0025"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0026"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0027"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0028"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0029"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0030"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0031"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0032"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0033"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0034"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0035"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0036"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0037"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0038"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0039"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0040"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0041"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0042"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0043"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0044"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0045"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0046"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0047"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0048"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0049"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0050"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0051"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0052"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0053"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0054"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0055"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0056"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0057"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0058"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0059"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0060"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0061"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0062"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0063"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0064"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0065"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0066"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0067"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0068"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0069"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0070"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0071"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0072"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0073"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0074"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0075"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0076"
+    },
+    {
+      "type": "missing_accepted_session",
+      "session_id": "S0077"
+    },
+    {
+      "type": "repeat_count_mismatch",
+      "prompt_id": "P01",
+      "expected": 7,
+      "actual": 1
+    },
+    {
+      "type": "repeat_count_mismatch",
+      "prompt_id": "P02",
+      "expected": 7,
+      "actual": 0
+    },
+    {
+      "type": "repeat_count_mismatch",
+      "prompt_id": "P03",
+      "expected": 7,
+      "actual": 0
+    },
+    {
+      "type": "repeat_count_mismatch",
+      "prompt_id": "P04",
+      "expected": 7,
+      "actual": 0
+    },
+    {
+      "type": "repeat_count_mismatch",
+      "prompt_id": "P05",
+      "expected": 7,
+      "actual": 0
+    },
+    {
+      "type": "repeat_count_mismatch",
+      "prompt_id": "P06",
+      "expected": 7,
+      "actual": 0
+    },
+    {
+      "type": "repeat_count_mismatch",
+      "prompt_id": "P07",
+      "expected": 7,
+      "actual": 0
+    },
+    {
+      "type": "repeat_count_mismatch",
+      "prompt_id": "P08",
+      "expected": 7,
+      "actual": 0
+    },
+    {
+      "type": "repeat_count_mismatch",
+      "prompt_id": "P09",
+      "expected": 7,
+      "actual": 0
+    },
+    {
+      "type": "repeat_count_mismatch",
+      "prompt_id": "P10",
+      "expected": 7,
+      "actual": 0
+    },
+    {
+      "type": "repeat_count_mismatch",
+      "prompt_id": "P11",
+      "expected": 7,
+      "actual": 0
+    }
+  ]
+}

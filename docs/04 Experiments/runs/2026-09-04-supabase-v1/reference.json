@@ -1,0 +1,96 @@
+{
+  "captured_at": "2026-09-04T18:42:30+08:00",
+  "source_url": "https://supabase.com/",
+  "scope": "exact_submitted_landing_page_only",
+  "fields": {
+    "name": {
+      "value": "Supabase",
+      "status": "page_declared",
+      "source_url": "https://supabase.com/",
+      "evidence": "Page title, navigation logo, product copy, and footer"
+    },
+    "legal_name": {
+      "value": "Supabase Inc",
+      "status": "page_declared",
+      "source_url": "https://supabase.com/",
+      "evidence": "Footer copyright notice"
+    },
+    "business_type": {
+      "value": "Open-source Postgres development platform and hosted backend platform",
+      "status": "page_declared",
+      "source_url": "https://supabase.com/",
+      "evidence": "Page title, hero copy, and open-source section"
+    },
+    "products": {
+      "value": [
+        "Postgres database",
+        "Authentication",
+        "Data APIs",
+        "Edge Functions",
+        "Realtime data",
+        "Storage",
+        "Vector embeddings"
+      ],
+      "status": "page_declared",
+      "source_url": "https://supabase.com/",
+      "evidence": "Hero and product cards"
+    },
+    "positioning": {
+      "value": [
+        "Build in a weekend, scale to millions",
+        "Open source from day one",
+        "Self-hostable and portable",
+        "Integrated platform built around Postgres"
+      ],
+      "status": "page_declared",
+      "source_url": "https://supabase.com/",
+      "evidence": "Hero and community sections"
+    },
+    "trust_claims": {
+      "value": ["SOC 2 Type 2 Certified", "HIPAA Compliant", "ISO 27001 Certified"],
+      "status": "page_declared",
+      "source_url": "https://supabase.com/",
+      "evidence": "Footer security section"
+    },
+    "github": {
+      "value": "https://github.com/supabase",
+      "status": "page_declared",
+      "source_url": "https://supabase.com/",
+      "evidence": "Header and footer links; page displayed 108.8K"
+    },
+    "social_handle": {
+      "value": "@supabase",
+      "platform": "X/Twitter",
+      "status": "page_declared",
+      "source_url": "https://supabase.com/",
+      "evidence": "Footer link to twitter.com/supabase"
+    },
+    "service_scope": {
+      "value": "Worldwide",
+      "status": "page_declared",
+      "source_url": "https://supabase.com/",
+      "evidence": "Trusted by fast-growing companies worldwide"
+    },
+    "city": {
+      "value": null,
+      "status": "unknown",
+      "source_url": "https://supabase.com/"
+    },
+    "province": {
+      "value": null,
+      "status": "unknown",
+      "source_url": "https://supabase.com/"
+    },
+    "country": {
+      "value": null,
+      "status": "unknown",
+      "source_url": "https://supabase.com/",
+      "evidence": "No country or headquarters context appeared in any of seven URL-only bootstrap answers"
+    }
+  },
+  "limitations": [
+    "The exact landing page does not declare a headquarters city, state, or country.",
+    "The worldwide statement describes customer reach, not corporate location.",
+    "Seven URL-only bootstrap observations volunteered no city, state, country, headquarters, or based-in value, so the geography prompts were correctly skipped."
+  ]
+}

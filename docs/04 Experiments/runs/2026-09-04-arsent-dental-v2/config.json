@@ -1,0 +1,22 @@
+{
+  "audit_id": "2026-09-04-arsent-dental-v2",
+  "protocol_version": "agent-glasses-v1",
+  "target_url": "https://www.arsentdental.com/",
+  "name": "Arsent Dental",
+  "social_handle": {
+    "platform": "Instagram",
+    "value": "@arsent.dental"
+  },
+  "city": "Gianyar",
+  "province": "Bali",
+  "country": "Indonesia",
+  "local_language": {
+    "code": "id",
+    "name": "Indonesian"
+  },
+  "templates": {
+    "en_base": "What do you know about {identity}?",
+    "local_base": "Apa yang kamu ketahui tentang {identity}?",
+    "local_location": "Apa yang kamu ketahui tentang {url} di {location}?"
+  }
+}

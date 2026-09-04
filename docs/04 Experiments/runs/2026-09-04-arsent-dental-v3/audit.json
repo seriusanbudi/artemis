@@ -1,0 +1,9 @@
+{
+  "audit_id": "2026-09-04-arsent-dental-v3",
+  "status": "pass",
+  "planned_sessions": 77,
+  "accepted_sessions": 77,
+  "ledger_attempts": 79,
+  "failed_attempts": 2,
+  "errors": []
+}

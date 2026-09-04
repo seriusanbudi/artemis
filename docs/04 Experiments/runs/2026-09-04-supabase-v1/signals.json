@@ -1,0 +1,39 @@
+{
+  "signals": {
+    "business_name": ["\\bsupabase\\b"],
+    "legal_name": ["supabase inc"],
+    "postgres": ["postgres(?:ql)?"],
+    "database": ["\\bdatabase\\b"],
+    "backend_platform": ["backend[- ]as[- ]a[- ]service", "\\bbaas\\b", "backend platform", "development platform"],
+    "authentication": ["authentication", "\\bauth\\b"],
+    "data_apis": ["data api", "auto[- ]generated api", "rest api", "instant api"],
+    "edge_functions": ["edge functions?"],
+    "realtime": ["real[- ]?time"],
+    "storage": ["file storage", "object storage", "\\bstorage\\b"],
+    "vector": ["vector embedding", "vector database", "pgvector"],
+    "open_source": ["open[- ]source"],
+    "self_host": ["self[- ]host"],
+    "portable": ["portable", "no vendor lock", "vendor lock[- ]in"],
+    "row_level_security": ["row level security", "\\brls\\b"],
+    "github": ["github", "108\\.?8k"],
+    "soc2": ["soc ?2"],
+    "hipaa": ["hipaa"],
+    "iso27001": ["iso ?27001"],
+    "worldwide": ["worldwide", "global(?:ly)?"],
+    "twitter_handle": ["@supabase", "twitter\\.com/supabase"],
+    "firebase_comparison": ["firebase"],
+    "action_docs": ["documentation", "\\bdocs\\b", "quickstart"],
+    "action_start": ["start your project", "sign up", "dashboard", "create a project"],
+    "uncertainty_or_ambiguity": ["ambiguous", "not sure", "could mean", "unable to identify", "couldn[’']?t find"]
+  },
+  "entity_anchor_signals": [
+    "postgres",
+    "backend_platform",
+    "authentication",
+    "open_source"
+  ],
+  "actionability_signals": [
+    "action_docs",
+    "action_start"
+  ]
+}

@@ -1,0 +1,888 @@
+{
+  "audit_id": "2026-09-04-supabase-v1",
+  "protocol_version": "agent-glasses-v1",
+  "target_url": "https://supabase.com/",
+  "repeats": 7,
+  "unique_prompts": 7,
+  "conceptual_matrix_cells": 9,
+  "planned_sessions": 49,
+  "prompts": [
+    {
+      "prompt": "What do you know about Supabase?",
+      "labels": [
+        "identity:N"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N"
+      ],
+      "location_level": null,
+      "prompt_id": "P01"
+    },
+    {
+      "prompt": "What do you know about https://supabase.com/?",
+      "labels": [
+        "identity:U",
+        "geography:G0",
+        "language:en"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": null,
+      "prompt_id": "P02"
+    },
+    {
+      "prompt": "What do you know about @supabase on X/Twitter?",
+      "labels": [
+        "identity:H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P03"
+    },
+    {
+      "prompt": "What do you know about Supabase (https://supabase.com/)?",
+      "labels": [
+        "identity:N+U"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "U"
+      ],
+      "location_level": null,
+      "prompt_id": "P04"
+    },
+    {
+      "prompt": "What do you know about Supabase (@supabase on X/Twitter)?",
+      "labels": [
+        "identity:N+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P05"
+    },
+    {
+      "prompt": "What do you know about https://supabase.com/ and @supabase on X/Twitter?",
+      "labels": [
+        "identity:U+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P06"
+    },
+    {
+      "prompt": "What do you know about Supabase (https://supabase.com/, @supabase on X/Twitter)?",
+      "labels": [
+        "identity:N+U+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "U",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P07"
+    }
+  ],
+  "sessions": [
+    {
+      "session_id": "S0001",
+      "round": 1,
+      "execution_order": 1,
+      "prompt": "What do you know about Supabase?",
+      "labels": [
+        "identity:N"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N"
+      ],
+      "location_level": null,
+      "prompt_id": "P01"
+    },
+    {
+      "session_id": "S0002",
+      "round": 1,
+      "execution_order": 2,
+      "prompt": "What do you know about https://supabase.com/?",
+      "labels": [
+        "identity:U",
+        "geography:G0",
+        "language:en"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": null,
+      "prompt_id": "P02"
+    },
+    {
+      "session_id": "S0003",
+      "round": 1,
+      "execution_order": 3,
+      "prompt": "What do you know about @supabase on X/Twitter?",
+      "labels": [
+        "identity:H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P03"
+    },
+    {
+      "session_id": "S0004",
+      "round": 1,
+      "execution_order": 4,
+      "prompt": "What do you know about Supabase (https://supabase.com/)?",
+      "labels": [
+        "identity:N+U"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "U"
+      ],
+      "location_level": null,
+      "prompt_id": "P04"
+    },
+    {
+      "session_id": "S0005",
+      "round": 1,
+      "execution_order": 5,
+      "prompt": "What do you know about Supabase (@supabase on X/Twitter)?",
+      "labels": [
+        "identity:N+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P05"
+    },
+    {
+      "session_id": "S0006",
+      "round": 1,
+      "execution_order": 6,
+      "prompt": "What do you know about https://supabase.com/ and @supabase on X/Twitter?",
+      "labels": [
+        "identity:U+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P06"
+    },
+    {
+      "session_id": "S0007",
+      "round": 1,
+      "execution_order": 7,
+      "prompt": "What do you know about Supabase (https://supabase.com/, @supabase on X/Twitter)?",
+      "labels": [
+        "identity:N+U+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "U",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P07"
+    },
+    {
+      "session_id": "S0008",
+      "round": 2,
+      "execution_order": 8,
+      "prompt": "What do you know about Supabase?",
+      "labels": [
+        "identity:N"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N"
+      ],
+      "location_level": null,
+      "prompt_id": "P01"
+    },
+    {
+      "session_id": "S0009",
+      "round": 2,
+      "execution_order": 9,
+      "prompt": "What do you know about https://supabase.com/?",
+      "labels": [
+        "identity:U",
+        "geography:G0",
+        "language:en"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": null,
+      "prompt_id": "P02"
+    },
+    {
+      "session_id": "S0010",
+      "round": 2,
+      "execution_order": 10,
+      "prompt": "What do you know about @supabase on X/Twitter?",
+      "labels": [
+        "identity:H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P03"
+    },
+    {
+      "session_id": "S0011",
+      "round": 2,
+      "execution_order": 11,
+      "prompt": "What do you know about Supabase (https://supabase.com/)?",
+      "labels": [
+        "identity:N+U"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "U"
+      ],
+      "location_level": null,
+      "prompt_id": "P04"
+    },
+    {
+      "session_id": "S0012",
+      "round": 2,
+      "execution_order": 12,
+      "prompt": "What do you know about Supabase (@supabase on X/Twitter)?",
+      "labels": [
+        "identity:N+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P05"
+    },
+    {
+      "session_id": "S0013",
+      "round": 2,
+      "execution_order": 13,
+      "prompt": "What do you know about https://supabase.com/ and @supabase on X/Twitter?",
+      "labels": [
+        "identity:U+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P06"
+    },
+    {
+      "session_id": "S0014",
+      "round": 2,
+      "execution_order": 14,
+      "prompt": "What do you know about Supabase (https://supabase.com/, @supabase on X/Twitter)?",
+      "labels": [
+        "identity:N+U+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "U",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P07"
+    },
+    {
+      "session_id": "S0015",
+      "round": 3,
+      "execution_order": 15,
+      "prompt": "What do you know about Supabase?",
+      "labels": [
+        "identity:N"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N"
+      ],
+      "location_level": null,
+      "prompt_id": "P01"
+    },
+    {
+      "session_id": "S0016",
+      "round": 3,
+      "execution_order": 16,
+      "prompt": "What do you know about https://supabase.com/?",
+      "labels": [
+        "identity:U",
+        "geography:G0",
+        "language:en"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": null,
+      "prompt_id": "P02"
+    },
+    {
+      "session_id": "S0017",
+      "round": 3,
+      "execution_order": 17,
+      "prompt": "What do you know about @supabase on X/Twitter?",
+      "labels": [
+        "identity:H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P03"
+    },
+    {
+      "session_id": "S0018",
+      "round": 3,
+      "execution_order": 18,
+      "prompt": "What do you know about Supabase (https://supabase.com/)?",
+      "labels": [
+        "identity:N+U"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "U"
+      ],
+      "location_level": null,
+      "prompt_id": "P04"
+    },
+    {
+      "session_id": "S0019",
+      "round": 3,
+      "execution_order": 19,
+      "prompt": "What do you know about Supabase (@supabase on X/Twitter)?",
+      "labels": [
+        "identity:N+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P05"
+    },
+    {
+      "session_id": "S0020",
+      "round": 3,
+      "execution_order": 20,
+      "prompt": "What do you know about https://supabase.com/ and @supabase on X/Twitter?",
+      "labels": [
+        "identity:U+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P06"
+    },
+    {
+      "session_id": "S0021",
+      "round": 3,
+      "execution_order": 21,
+      "prompt": "What do you know about Supabase (https://supabase.com/, @supabase on X/Twitter)?",
+      "labels": [
+        "identity:N+U+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "U",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P07"
+    },
+    {
+      "session_id": "S0022",
+      "round": 4,
+      "execution_order": 22,
+      "prompt": "What do you know about Supabase?",
+      "labels": [
+        "identity:N"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N"
+      ],
+      "location_level": null,
+      "prompt_id": "P01"
+    },
+    {
+      "session_id": "S0023",
+      "round": 4,
+      "execution_order": 23,
+      "prompt": "What do you know about https://supabase.com/?",
+      "labels": [
+        "identity:U",
+        "geography:G0",
+        "language:en"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": null,
+      "prompt_id": "P02"
+    },
+    {
+      "session_id": "S0024",
+      "round": 4,
+      "execution_order": 24,
+      "prompt": "What do you know about @supabase on X/Twitter?",
+      "labels": [
+        "identity:H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P03"
+    },
+    {
+      "session_id": "S0025",
+      "round": 4,
+      "execution_order": 25,
+      "prompt": "What do you know about Supabase (https://supabase.com/)?",
+      "labels": [
+        "identity:N+U"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "U"
+      ],
+      "location_level": null,
+      "prompt_id": "P04"
+    },
+    {
+      "session_id": "S0026",
+      "round": 4,
+      "execution_order": 26,
+      "prompt": "What do you know about Supabase (@supabase on X/Twitter)?",
+      "labels": [
+        "identity:N+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P05"
+    },
+    {
+      "session_id": "S0027",
+      "round": 4,
+      "execution_order": 27,
+      "prompt": "What do you know about https://supabase.com/ and @supabase on X/Twitter?",
+      "labels": [
+        "identity:U+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P06"
+    },
+    {
+      "session_id": "S0028",
+      "round": 4,
+      "execution_order": 28,
+      "prompt": "What do you know about Supabase (https://supabase.com/, @supabase on X/Twitter)?",
+      "labels": [
+        "identity:N+U+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "U",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P07"
+    },
+    {
+      "session_id": "S0029",
+      "round": 5,
+      "execution_order": 29,
+      "prompt": "What do you know about Supabase?",
+      "labels": [
+        "identity:N"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N"
+      ],
+      "location_level": null,
+      "prompt_id": "P01"
+    },
+    {
+      "session_id": "S0030",
+      "round": 5,
+      "execution_order": 30,
+      "prompt": "What do you know about https://supabase.com/?",
+      "labels": [
+        "identity:U",
+        "geography:G0",
+        "language:en"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": null,
+      "prompt_id": "P02"
+    },
+    {
+      "session_id": "S0031",
+      "round": 5,
+      "execution_order": 31,
+      "prompt": "What do you know about @supabase on X/Twitter?",
+      "labels": [
+        "identity:H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P03"
+    },
+    {
+      "session_id": "S0032",
+      "round": 5,
+      "execution_order": 32,
+      "prompt": "What do you know about Supabase (https://supabase.com/)?",
+      "labels": [
+        "identity:N+U"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "U"
+      ],
+      "location_level": null,
+      "prompt_id": "P04"
+    },
+    {
+      "session_id": "S0033",
+      "round": 5,
+      "execution_order": 33,
+      "prompt": "What do you know about Supabase (@supabase on X/Twitter)?",
+      "labels": [
+        "identity:N+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P05"
+    },
+    {
+      "session_id": "S0034",
+      "round": 5,
+      "execution_order": 34,
+      "prompt": "What do you know about https://supabase.com/ and @supabase on X/Twitter?",
+      "labels": [
+        "identity:U+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P06"
+    },
+    {
+      "session_id": "S0035",
+      "round": 5,
+      "execution_order": 35,
+      "prompt": "What do you know about Supabase (https://supabase.com/, @supabase on X/Twitter)?",
+      "labels": [
+        "identity:N+U+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "U",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P07"
+    },
+    {
+      "session_id": "S0036",
+      "round": 6,
+      "execution_order": 36,
+      "prompt": "What do you know about Supabase?",
+      "labels": [
+        "identity:N"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N"
+      ],
+      "location_level": null,
+      "prompt_id": "P01"
+    },
+    {
+      "session_id": "S0037",
+      "round": 6,
+      "execution_order": 37,
+      "prompt": "What do you know about https://supabase.com/?",
+      "labels": [
+        "identity:U",
+        "geography:G0",
+        "language:en"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": null,
+      "prompt_id": "P02"
+    },
+    {
+      "session_id": "S0038",
+      "round": 6,
+      "execution_order": 38,
+      "prompt": "What do you know about @supabase on X/Twitter?",
+      "labels": [
+        "identity:H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P03"
+    },
+    {
+      "session_id": "S0039",
+      "round": 6,
+      "execution_order": 39,
+      "prompt": "What do you know about Supabase (https://supabase.com/)?",
+      "labels": [
+        "identity:N+U"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "U"
+      ],
+      "location_level": null,
+      "prompt_id": "P04"
+    },
+    {
+      "session_id": "S0040",
+      "round": 6,
+      "execution_order": 40,
+      "prompt": "What do you know about Supabase (@supabase on X/Twitter)?",
+      "labels": [
+        "identity:N+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P05"
+    },
+    {
+      "session_id": "S0041",
+      "round": 6,
+      "execution_order": 41,
+      "prompt": "What do you know about https://supabase.com/ and @supabase on X/Twitter?",
+      "labels": [
+        "identity:U+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P06"
+    },
+    {
+      "session_id": "S0042",
+      "round": 6,
+      "execution_order": 42,
+      "prompt": "What do you know about Supabase (https://supabase.com/, @supabase on X/Twitter)?",
+      "labels": [
+        "identity:N+U+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "U",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P07"
+    },
+    {
+      "session_id": "S0043",
+      "round": 7,
+      "execution_order": 43,
+      "prompt": "What do you know about Supabase?",
+      "labels": [
+        "identity:N"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N"
+      ],
+      "location_level": null,
+      "prompt_id": "P01"
+    },
+    {
+      "session_id": "S0044",
+      "round": 7,
+      "execution_order": 44,
+      "prompt": "What do you know about https://supabase.com/?",
+      "labels": [
+        "identity:U",
+        "geography:G0",
+        "language:en"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": null,
+      "prompt_id": "P02"
+    },
+    {
+      "session_id": "S0045",
+      "round": 7,
+      "execution_order": 45,
+      "prompt": "What do you know about @supabase on X/Twitter?",
+      "labels": [
+        "identity:H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P03"
+    },
+    {
+      "session_id": "S0046",
+      "round": 7,
+      "execution_order": 46,
+      "prompt": "What do you know about Supabase (https://supabase.com/)?",
+      "labels": [
+        "identity:N+U"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "U"
+      ],
+      "location_level": null,
+      "prompt_id": "P04"
+    },
+    {
+      "session_id": "S0047",
+      "round": 7,
+      "execution_order": 47,
+      "prompt": "What do you know about Supabase (@supabase on X/Twitter)?",
+      "labels": [
+        "identity:N+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P05"
+    },
+    {
+      "session_id": "S0048",
+      "round": 7,
+      "execution_order": 48,
+      "prompt": "What do you know about https://supabase.com/ and @supabase on X/Twitter?",
+      "labels": [
+        "identity:U+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P06"
+    },
+    {
+      "session_id": "S0049",
+      "round": 7,
+      "execution_order": 49,
+      "prompt": "What do you know about Supabase (https://supabase.com/, @supabase on X/Twitter)?",
+      "labels": [
+        "identity:N+U+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "U",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P07"
+    }
+  ]
+}

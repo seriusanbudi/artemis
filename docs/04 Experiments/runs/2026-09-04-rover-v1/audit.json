@@ -1,0 +1,9 @@
+{
+  "audit_id": "2026-09-04-rover-v1",
+  "status": "pass",
+  "planned_sessions": 70,
+  "accepted_sessions": 70,
+  "ledger_attempts": 72,
+  "failed_attempts": 2,
+  "errors": []
+}

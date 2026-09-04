@@ -1,0 +1,43 @@
+{
+  "signals": {
+    "business_name": ["\\brover(?:\\.com)?\\b"],
+    "legal_name": ["a place for rover"],
+    "pet_care_marketplace": ["pet care marketplace", "platform[^.]{0,80}(?:pet sitter|dog walker)", "connect[^.]{0,80}(?:pet owner|pet parent)[^.]{0,80}(?:sitter|walker)"],
+    "pet_sitting": ["pet sitt(?:er|ing)"],
+    "dog_walking": ["dog walk(?:er|ing)"],
+    "boarding": ["\\bboarding\\b"],
+    "house_sitting": ["house sitting"],
+    "drop_in": ["drop[- ]in visit"],
+    "day_care": ["doggy day care", "dog daycare", "daycare"],
+    "training": ["dog training", "pet training", "trainer"],
+    "background_checks": ["background check"],
+    "verified_reviews": ["verified review"],
+    "rover_guarantee": ["rover guarantee"],
+    "vet_reimbursement": ["\\$25,?000", "25,?000[^.]{0,80}vet"],
+    "support_24_7": ["24/7 support", "24-hour support"],
+    "provider_set_rates": ["set their own rates", "sitters?[^.]{0,80}set[^.]{0,30}rates"],
+    "book_and_pay": ["book(?:ing)? and pay", "book[^.]{0,100}through rover", "payment[^.]{0,80}platform"],
+    "international_scope": ["international", "worldwide", "multiple countries", "united kingdom", "canada[^.]{0,100}(?:germany|france|europe)"],
+    "seattle": ["\\bseattle\\b"],
+    "washington": ["\\bwashington(?: state)?\\b"],
+    "united_states": ["united states", "\\bu\\.?s\\.?\\b", "\\busa\\b"],
+    "instagram_handle": ["@?roverdotcom"],
+    "action_search": ["search(?: for)?[^.]{0,80}(?:sitter|walker|pet care)", "enter[^.]{0,50}(?:address|zip code)"],
+    "action_book": ["\\bbook(?:ing)?\\b", "download[^.]{0,30}app"],
+    "uncertainty_or_ambiguity": ["ambiguous", "which rover", "could mean", "assuming you mean", "not sure which", "clarify"],
+    "land_rover_context": ["land rover"],
+    "space_rover_context": ["mars rover", "lunar rover", "space rover"]
+  },
+  "entity_anchor_signals": [
+    "pet_care_marketplace",
+    "pet_sitting",
+    "dog_walking",
+    "boarding",
+    "rover_guarantee"
+  ],
+  "actionability_signals": [
+    "action_search",
+    "action_book",
+    "book_and_pay"
+  ]
+}

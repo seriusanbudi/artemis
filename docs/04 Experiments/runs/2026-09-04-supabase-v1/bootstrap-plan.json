@@ -1,0 +1,28 @@
+{
+  "audit_id": "2026-09-04-supabase-v1-bootstrap",
+  "protocol_version": "agent-glasses-v1",
+  "target_url": "https://supabase.com/",
+  "repeats": 7,
+  "unique_prompts": 1,
+  "conceptual_matrix_cells": 1,
+  "planned_sessions": 7,
+  "prompts": [
+    {
+      "prompt": "What do you know about https://supabase.com/?",
+      "labels": ["bootstrap:U"],
+      "language": "en",
+      "identity_signals": ["U"],
+      "location_level": null,
+      "prompt_id": "B01"
+    }
+  ],
+  "sessions": [
+    {"session_id":"B0001","round":1,"execution_order":1,"prompt":"What do you know about https://supabase.com/?","labels":["bootstrap:U"],"language":"en","identity_signals":["U"],"location_level":null,"prompt_id":"B01"},
+    {"session_id":"B0002","round":2,"execution_order":2,"prompt":"What do you know about https://supabase.com/?","labels":["bootstrap:U"],"language":"en","identity_signals":["U"],"location_level":null,"prompt_id":"B01"},
+    {"session_id":"B0003","round":3,"execution_order":3,"prompt":"What do you know about https://supabase.com/?","labels":["bootstrap:U"],"language":"en","identity_signals":["U"],"location_level":null,"prompt_id":"B01"},
+    {"session_id":"B0004","round":4,"execution_order":4,"prompt":"What do you know about https://supabase.com/?","labels":["bootstrap:U"],"language":"en","identity_signals":["U"],"location_level":null,"prompt_id":"B01"},
+    {"session_id":"B0005","round":5,"execution_order":5,"prompt":"What do you know about https://supabase.com/?","labels":["bootstrap:U"],"language":"en","identity_signals":["U"],"location_level":null,"prompt_id":"B01"},
+    {"session_id":"B0006","round":6,"execution_order":6,"prompt":"What do you know about https://supabase.com/?","labels":["bootstrap:U"],"language":"en","identity_signals":["U"],"location_level":null,"prompt_id":"B01"},
+    {"session_id":"B0007","round":7,"execution_order":7,"prompt":"What do you know about https://supabase.com/?","labels":["bootstrap:U"],"language":"en","identity_signals":["U"],"location_level":null,"prompt_id":"B01"}
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "captured_at": "2026-09-04T18:42:30+08:00",
+  "source_url": "https://www.rover.com/",
+  "scope": "exact_submitted_landing_page_only",
+  "fields": {
+    "name": {
+      "value": "Rover",
+      "status": "page_declared",
+      "source_url": "https://www.rover.com/",
+      "evidence": "Navigation logo, FAQ, product copy, and footer company notice"
+    },
+    "legal_name": {
+      "value": "A Place for Rover, Inc.",
+      "status": "page_declared",
+      "source_url": "https://www.rover.com/",
+      "evidence": "Footer copyright notice"
+    },
+    "business_type": {
+      "value": "Marketplace for pet owners to find and book local pet sitters, walkers, and trainers",
+      "status": "page_declared",
+      "source_url": "https://www.rover.com/",
+      "evidence": "Hero, service cards, and FAQ"
+    },
+    "services": {
+      "value": [
+        "Pet boarding",
+        "House sitting",
+        "Drop-in visits",
+        "Doggy day care",
+        "Dog walking",
+        "Dog training"
+      ],
+      "status": "page_declared",
+      "source_url": "https://www.rover.com/",
+      "evidence": "Homepage service selector and FAQ"
+    },
+    "trust_features": {
+      "value": [
+        "Third-party background checks",
+        "Verified reviews",
+        "Rover Guarantee with up to $25,000 reimbursement for eligible veterinary care",
+        "24/7 support",
+        "Meet & Greet recommendation"
+      ],
+      "status": "page_declared",
+      "source_url": "https://www.rover.com/",
+      "evidence": "Book with peace of mind and FAQ sections"
+    },
+    "transaction_model": {
+      "value": "Users search by address or ZIP code, review provider profiles, meet if desired, then book and pay through Rover",
+      "status": "page_declared",
+      "source_url": "https://www.rover.com/",
+      "evidence": "Three-step workflow and FAQ"
+    },
+    "pricing_model": {
+      "value": "Providers set their own rates; prices vary by service, market, provider experience, holidays, and add-ons",
+      "status": "page_declared",
+      "source_url": "https://www.rover.com/",
+      "evidence": "Pricing FAQ"
+    },
+    "service_scope": {
+      "value": "United States plus Canada and multiple European markets",
+      "status": "page_declared",
+      "source_url": "https://www.rover.com/",
+      "evidence": "Pet care across the United States and Pet care all over the world sections"
+    },
+    "city_context": {
+      "value": "Seattle",
+      "status": "page_declared",
+      "source_url": "https://www.rover.com/",
+      "evidence": "One of many page-declared service-market city links; used as a market context, not headquarters"
+    },
+    "province_context": {
+      "value": "Washington",
+      "status": "page_declared",
+      "source_url": "https://www.rover.com/",
+      "evidence": "One of all page-declared U.S. state service links; used as a market context"
+    },
+    "country_context": {
+      "value": "United States",
+      "status": "page_declared",
+      "source_url": "https://www.rover.com/",
+      "evidence": "Pet care across the United States section"
+    },
+    "instagram": {
+      "value": "@roverdotcom",
+      "platform": "Instagram",
+      "status": "page_declared",
+      "source_url": "https://www.rover.com/",
+      "evidence": "Footer Follow Rover on Instagram link; accessibility value truncated after instagram.com/rover, with roverdotcom corroborated by the page's TikTok/YouTube/Facebook target pattern"
+    },
+    "other_social_links": {
+      "value": ["Facebook", "LinkedIn", "YouTube", "TikTok"],
+      "status": "page_declared",
+      "source_url": "https://www.rover.com/",
+      "evidence": "Footer links"
+    }
+  },
+  "limitations": [
+    "Seattle and Washington are service-market contexts selected from many page-declared markets, not asserted headquarters.",
+    "The Instagram link target was truncated in Chrome accessibility output; the username is inferred from consistent page-published social target prefixes.",
+    "The page is localized to its U.S. experience and links to other country editions."
+  ]
+}

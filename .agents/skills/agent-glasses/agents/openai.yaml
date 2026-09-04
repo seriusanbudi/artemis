@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Glasses"
+  short_description: "Audit how logged-out ChatGPT sees a business"
+  default_prompt: "Use $agent-glasses to audit how logged-out ChatGPT sees this business URL."

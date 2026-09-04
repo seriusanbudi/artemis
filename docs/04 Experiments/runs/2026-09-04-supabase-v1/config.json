@@ -1,0 +1,22 @@
+{
+  "audit_id": "2026-09-04-supabase-v1",
+  "protocol_version": "agent-glasses-v1",
+  "target_url": "https://supabase.com/",
+  "name": "Supabase",
+  "social_handle": {
+    "platform": "X/Twitter",
+    "value": "@supabase"
+  },
+  "city": null,
+  "province": null,
+  "country": null,
+  "local_language": {
+    "code": "en",
+    "name": "English"
+  },
+  "templates": {
+    "en_base": "What do you know about {identity}?",
+    "local_base": "What do you know about {identity}?",
+    "local_location": "What do you know about {url} in {location}?"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "signals": {
+    "business_name": ["\\barsent\\s+dental\\b"],
+    "batubulan": ["\\bbatubulan(?:\\s+kangin)?\\b"],
+    "sukawati": ["\\bsukawati\\b"],
+    "gianyar": ["\\bgianyar\\b"],
+    "bali": ["\\bbali\\b"],
+    "indonesia": ["\\bindonesia(?:n)?\\b"],
+    "dentist": ["i\\s+made\\s+gde\\s+artha\\s+sentana", "artha\\s+sentana"],
+    "sip": ["mr51042607013475"],
+    "phone": ["0812\\D{0,4}3837\\D{0,4}4696", "6281238374696"],
+    "whatsapp": ["whats?app"],
+    "instagram_handle": ["@?arsent\\.dental"],
+    "google_maps": ["google\\s+maps", "maps\\.app\\.goo\\.gl"],
+    "street_address": ["batuyang\\s+(?:no\\.?\\s*)?25"],
+    "services": ["scaling", "teeth cleaning", "pembersihan gigi", "pemeriksaan gigi", "dental examination", "konsultasi gigi", "dental consultation"],
+    "prices": ["rp\\.?\\s*100[.,]?000", "rp\\.?\\s*250[.,]?000", "rp\\.?\\s*350[.,]?000"],
+    "uncertainty_or_not_found": ["couldn[’']?t find", "could not find", "not finding", "unable to find", "tidak menemukan", "belum menemukan", "sulit menemukan"],
+    "misattribution_candidate": ["\\bardent dental\\b", "\\bargent dental\\b"]
+  },
+  "entity_anchor_signals": [
+    "batubulan",
+    "sukawati",
+    "gianyar",
+    "dentist",
+    "sip",
+    "phone",
+    "street_address"
+  ],
+  "actionability_signals": [
+    "phone",
+    "whatsapp",
+    "street_address",
+    "google_maps"
+  ]
+}

@@ -1,0 +1,452 @@
+Window: "Book Dog Boarding, Cat Sitting, Walking & Training - Rover.com", App: Google Chrome.
+0 standard window Book Dog Boarding, Cat Sitting, Walking & Training - Rover.com - Google Chrome - budi, URL: rover.com/, Secondary Actions: Raise
+	1 container Book Dog Boarding, Cat Sitting, Walking & Training - Rover.com - Google Chrome - budi, URL: rover.com/
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop up button View site information
+					9 text field (settable) Description: Address and search bar, Value: rover.com, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop up button 1Password
+Has access to this site
+					13 pop up button ChatGPT
+Has access to this site
+					14 pop up button Extensions
+				15 button budi
+				16 pop up button Chrome
+			17 container
+				18 HTML content Book Dog Boarding, Cat Sitting, Walking & Training - Rover.com, URL: rover.com/
+					19 container
+						20 link Description: Skip to content, Value: rover.com/
+						21 container
+							22 link Description: Rover, Value: rover.com/us/
+							23 link Description: Search Sitters, Value: rover.com/search/
+							24 link Description: Become a Sitter, Value: rover.com/become-a-…
+							25 button Our Services
+							26 link Description: Sign Up, Value: rover.com/account/c…
+							27 link Description: Sign In, Value: rover.com/account/c…
+							28 link Description: Help, Value: rover.com/help/
+						29 container
+							30 heading Loving pet care in your neighborhood™, Value: 1
+								31 text Loving pet care in your neighborhood™
+							32 heading Book trusted sitters and dog walkers., Value: 2
+								33 text Book trusted sitters and dog walkers.
+							34 text Service type
+							35 container Service type
+								36 container
+									37 text Boarding
+									38 radio button Description: Boarding, Value: 1
+								39 container
+									40 text House Sitting
+									41 radio button Description: House Sitting, Value: 0
+								42 container
+									43 text Drop-In Visits
+									44 radio button Description: Drop-In Visits, Value: 0
+								45 container
+									46 text Doggy Day Care
+									47 radio button Description: Doggy Day Care, Value: 0
+								48 container
+									49 text Dog Walking
+									50 radio button Description: Dog Walking, Value: 0
+							51 text Address
+							52 text field (settable) Description: search for location, Placeholder: Add your address
+							53 button Search
+							54 container
+								55 text Dog Training NEW With a private trainer
+								56 link Description: Find a trainer, Value: rover.com/training/…
+						57 heading Get to know services on Rover, Value: 3
+							58 text Get to know services on Rover
+						59 text Get the care your pet needs, anytime and anywhere.
+						60 Service categories
+							61 radio button Overnight care, Value: 1
+							62 radio button Daytime care, Value: 0
+							63 radio button Other services, Value: 0
+							64 radio button All services, Value: 0
+						65 heading Boarding, Value: 3
+							66 text Boarding
+						67 text In sitter's home
+						68 text •
+						69 text For dogs & cats
+						70 text Book a cozy sleepover at a trusted sitter's house. Your pet gets personalized care. You get photo updates and can rest easy knowing they're safe and happy.
+						71 link Description: Explore Boarding, Value: rover.com/dog-board…
+						72 heading House Sitting, Value: 3
+							73 text House Sitting
+						74 text In your home
+						75 text •
+						76 text For dogs & cats
+						77 text Travel stress-free knowing your pet and home are being looked after. Book a trusted house sitter on Rover to stay in your home and keep your pet's routine.
+						78 link Description: Explore House Sitting, Value: rover.com/house-sit…
+						79 heading Book with peace of mind, Value: 3
+							80 text Book with peace of mind
+						81 content list
+							82 container
+								83 AXListMarker • 
+								84 text Screened pet sitters  have passed a third-party background check and show verified reviews from other pet parents, like you.
+							85 container
+								86 AXListMarker • 
+								87 text Every booking is backed by the Rover Guarantee, which includes up to $25,000 reimbursement for eligible vet care.
+								88 link Description: Learn more, Value: rover.com/rover-pro…
+							89 container
+								90 AXListMarker • 
+								91 text 24/7 support  from the Rover team–here to help if you ever need someone to talk to.
+						92 link Description: Book a local sitter, Value: rover.com/search
+						93 heading Meet local sitters who will treat your pets like family, Value: 3
+							94 text Meet local sitters who will treat your pets like family
+						95 content list
+							96 container
+								97 heading 1. Search, Value: 3
+									98 text 1 .  Search
+								99 text Read verified reviews by pet parents like you and choose a sitter who’s a great match for you and your pets.
+							100 container
+								101 heading 2. Meet In Person, Value: 3
+									102 text 2 .  Meet In Person
+								103 text Schedule a free in-person Meet & Greet to find the perfect fit
+							104 container
+								105 heading 3. Book & Pay, Value: 3
+									106 text .  Book & Pay
+								107 text It's that easy! All payments are processed through Rover's secured platform
+						108 heading FAQs, Value: 2
+							109 text FAQs
+						110 text Frequently asked questions about Rover
+						111 definition list
+							112 container What is Rover?
+								113 button What is Rover?
+							114 container What is Rover?
+								115 text Rover is a place to find and connect with local pet sitters and service providers. Book trusted care for dogs and cats, whenever and wherever you need it!
+								116 text With Rover, you can discover loving pet care services in your neighborhood: pet boarding, house sitting, dog walking, drop-in visits, doggy day care, and dog training. We make it easy to get personalized care for your one-of-a-kind pet.
+							117 container How does Rover work?
+								118 button How does Rover work?
+							119 container How does Rover work?
+								120 text As a pet parent, you can search for local pet care on Rover by entering your address or zip code. Then, explore sitter, walker, and trainer profiles and learn more about their pet care experience, ratings, and reviews.
+								121 text While it’s not required, Rover recommends scheduling Meet & Greets with pet care providers you’re interested in before booking. This is your opportunity to make sure a sitter is the right match for your pet's unique needs. Once you and the sitter agree it’s a good fit, complete the booking and payment through Rover. You can message your sitter anytime before, during, or after the booking!
+								122 text Many sitters, walkers, and trainers offer multiple services on Rover, making it easy to book consistent and flexible care for your pets. For example: If your dog usually just needs a dog walker, but later on you need boarding over a long weekend, you can often book the same person for both situations. To see what other services a pet care provider offers, check out the “Services” tab on their profile.
+								123 container
+									124 text Interested in becoming a sitter, walker, or trainer on Rover? Get started 
+									125 link Description: here, Value: rover.com/become-a-…
+									126 text .
+							127 container How does Rover promote safe experiences?
+								128 button How does Rover promote safe experiences?
+							129 container How does Rover promote safe experiences?
+								130 container
+									131 text Rover promotes safe experiences in multiple ways, like requiring all pet care providers joining our community to pass a background check. Every booking also includes reservation protection, 24/7 support, and the 
+									132 link Description: Rover Guarantee, Value: rover.com/rover-gua…
+									133 text . Everyone on Rover has access to a block and report feature. In the unlikely event you need to report any messages, you can easily do so to 
+									134 link Description: Rover Support, Value: support.rover.com/h…
+									135 text .
+								136 container
+									137 text We encourage all pet parents and sitters to read verified Rover reviews and schedule Meet & Greets before booking. Meet & Greets are in-person meetings where the pet, pet parent, and pet care provider can get to know each other. This allows everyone to assess if the environment, skills, and experience align with each pet's unique needs. Check out our 
+									138 link Description: Meet & Greet Guide, Value: rover.com/blog/safe…
+									139 text  for more tips.
+							140 container How do I find a sitter?
+								141 button How do I find a sitter?
+							142 container How do I find a sitter?
+								143 text The best way to find a sitter who’s a great match for your pet is to first create a Rover account and fill out a pet profile. The more we know about your pet, the easier it is to help you find a sitter who’s a great match for them.
+								144 container
+									145 text On the search page, you can 
+									146 link Description: filter sitters, Value: rover.com/search/
+									147 text  based on your pet’s unique care needs, like their size, spay/neuter status, whether they need grooming, if you’d like your sitter to have a fenced-in yard, etc. Some features, like weekly scheduling or full-time care, may vary based on the service type.
+								148 text Add your information and search to see a list of sitters who match your criteria. You can move around the map to refresh your sitter options and find sitters closer to your home, work, or wherever you need care. Open sitter profiles to explore recent reviews, read about their care style, and see how to contact them.
+							149 container How much does booking a service on Rover cost?
+								150 button How much does booking a service on Rover cost?
+							151 container How much does booking a service on Rover cost?
+								152 container
+									153 text Rates vary depending on the service, location, and experience of the pet care provider. This is because pet sitters, boarders, dog walkers, and trainers 
+									154 link Description: set their own rates on Rover, Value: support.rover.com/h…
+									155 text . You may notice higher rates during holidays or for add-on services like grooming, pickup and drop-off, additional pets, and extended stays.
+								156 container
+									157 text To get an idea of typical rates in your area, try a search on Rover. Enter your location and include as many details as you can. To make sure you’re seeing correct price estimates, 
+									158 link Description: complete an individual profile for each of your pets, Value: support.rover.com/h…
+									159 text  before you search.
+							160 container What does a dog or cat’s day with a sitter look like?
+								161 button What does a dog or cat’s day with a sitter look like?
+							162 container What does a dog or cat’s day with a sitter look like?
+								163 text This depends on the service, your pet’s care instructions, and the sitter, but generally speaking: A typical drop-in or overnight stay includes feeding, fresh water, potty breaks or litter box cleaning, and playtime. We know pets thrive on familiar routines, so Rover makes it possible to find a sitter who’ll maintain your pet’s daily rituals—whether they like company during dinnertime or require a minimum number of ball throws before bed.
+								164 text Looking for sitters who really go the extra mile? Some offer what can only be described as luxury boarding, and they’ll detail how they structure a pet’s day in the “A typical day” section.
+							165 container What kind of background check do pet sitters on Rover have?
+								166 button What kind of background check do pet sitters on Rover have?
+							167 container What kind of background check do pet sitters on Rover have?
+								168 container
+									169 text In North America, you can find the 
+									170 link Description: type of background check, Value: rover.com/backgroun…
+									171 text  a sitter has passed by looking at their profile:
+								172 content list
+									173 container
+										174 AXListMarker • 
+										175 text A blue badge means the sitter has passed a basic background check.
+									176 container
+										177 AXListMarker • 
+										178 text A gold badge means the sitter has passed an enhanced background check.
+								179 container
+									180 text For extra peace of mind, you can read verified reviews from other pet parents and check each sitter's repeat client stats. We also encourage you to schedule a Meet & Greet before booking with a new sitter or walker to meet them, ask questions, and see how they interact with your pets. For more details, visit 
+									181 link Description: Rover's Trust & Safety page, Value: rover.com/blog/safe…
+									182 text .
+							183 container What kind of pets can sitters on Rover watch?
+								184 button What kind of pets can sitters on Rover watch?
+							185 container What kind of pets can sitters on Rover watch?
+								186 text Rover was created to make it easy to find loving care for dogs and cats of any age, from puppies and kittens to senior pets. Some pet sitters do understand how to care for other pet types, such as birds, bunnies, lizards, or fish, and they may list this experience in their profiles, however Rover is intended for dog and cat care.
+							187 container Can I find available pet sitters on short notice through Rover?
+								188 button Can I find available pet sitters on short notice through Rover?
+							189 container Can I find available pet sitters on short notice through Rover?
+								190 container
+									191 text If you need a pet sitter on short notice, start by entering your dates into a Rover search. Look for the green checkmark at the bottom of each listing to find sitters who have recently updated their availability. Star Sitter status is also a good indicator that a sitter is likely to respond quickly to your message. The 
+									192 link Description: Star Sitter program, Value: rover.com/star-sitt…
+									193 text  recognizes pet sitters and dog walkers with a track record of highly-rated care for pets and responsive, reliable service for pet parents on Rover.
+								194 text Not seeing the sitters you need? Try broadening your search to include sitters who live a little farther away.
+								195 container
+									196 text Tip:  In a time crunch? When searching, reach out to a few sitters at a time to find the best fit for your family even faster.
+							197 container How do I know a pet sitter is reliable?
+								198 button How do I know a pet sitter is reliable?
+							199 container How do I know a pet sitter is reliable?
+								200 text Rather than relying on one factor, Rover offers multiple trust signals to help pet parents evaluate a pet sitter’s reliability. Background checks, star ratings, repeat clients, photo updates, and Star Sitter status are all ways to identify a reliable sitter.
+								201 text Another important step is a Meet & Greet or trial day. Both methods offer a way for the pet parent to verify whether a pet sitter is the right fit. Trial days are booked as regular services, like doggy day care or overnight boarding, and can serve as a low-pressure practice run to see how your pet interacts with their potential sitter before committing to a longer stay. Successful Meet & Greets and trial days can help reduce your pet’s stress during the actual stay and give you peace of mind while you’re bu
+						202 heading Connect anywhere with the Rover app, Value: 3
+							203 text Connect anywhere with the Rover app
+						204 link Description: Download on the App Store, Value: itunes.apple.com/us…
+						205 link Description: Get it on Google Play, Value: play.google.com/sto…
+						206 heading A world of trusted pet care., Value: 3
+							207 text A world of trusted pet care.
+						208 text Explore our selection of dedicated sitters both nationally and internationally.
+						209 definition list
+							210 container Find care in your city 📍
+								211 button Find care in your city 📍
+									212 text Find care in your city
+									213 text  📍
+							214 container Find care in your city 📍
+								215 content list
+									216 link Description: Albuquerque, NM, Value: rover.com/albuquerq…
+									217 link Description: Anaheim, CA, Value: rover.com/anaheim--…
+									218 link Description: Anchorage, AK, Value: rover.com/anchorage…
+									219 link Description: Arlington, TX, Value: rover.com/arlington…
+									220 link Description: Atlanta, GA, Value: rover.com/atlanta--…
+									221 link Description: Aurora, CO, Value: rover.com/aurora--c…
+									222 link Description: Austin, TX, Value: rover.com/austin--t…
+									223 link Description: Bakersfield, CA, Value: rover.com/bakersfie…
+									224 link Description: Baltimore, MD, Value: rover.com/baltimore…
+									225 link Description: Baton Rouge, LA, Value: rover.com/baton-rou…
+									226 link Description: Boston, MA, Value: rover.com/boston--m…
+									227 link Description: Bronx, NY, Value: rover.com/bronx--ny…
+									228 link Description: Brooklyn, NY, Value: rover.com/brooklyn-…
+									229 link Description: Buffalo, NY, Value: rover.com/buffalo--…
+									230 link Description: Chandler, AZ, Value: rover.com/chandler-…
+									231 link Description: Charlotte, NC, Value: rover.com/charlotte…
+									232 link Description: Chesapeake, VA, Value: rover.com/chesapeak…
+									233 link Description: Chicago, IL, Value: rover.com/chicago--…
+									234 link Description: Chula Vista, CA, Value: rover.com/chula-vis…
+									235 link Description: Cincinnati, OH, Value: rover.com/cincinnat…
+									236 link Description: Cleveland, OH, Value: rover.com/cleveland…
+									237 link Description: Colorado Springs, CO, Value: rover.com/colorado-…
+									238 link Description: Columbus, OH, Value: rover.com/columbus-…
+									239 link Description: Corpus Christi, TX, Value: rover.com/corpus-ch…
+									240 link Description: Dallas, TX, Value: rover.com/dallas--t…
+									241 link Description: Denver, CO, Value: rover.com/denver--c…
+									242 link Description: Detroit, MI, Value: rover.com/detroit--…
+									243 link Description: Durham, NC, Value: rover.com/durham--n…
+									244 link Description: El Paso, TX, Value: rover.com/el-paso--…
+									245 link Description: Fort Wayne, IN, Value: rover.com/fort-wayn…
+									246 link Description: Fort Worth, TX, Value: rover.com/fort-wort…
+									247 link Description: Fresno, CA, Value: rover.com/fresno--c…
+									248 link Description: Garland, TX, Value: rover.com/garland--…
+									249 link Description: Glendale, AZ, Value: rover.com/glendale-…
+									250 link Description: Greensboro, NC, Value: rover.com/greensbor…
+									251 link Description: Henderson, NV, Value: rover.com/henderson…
+									252 link Description: Hialeah, FL, Value: rover.com/hialeah--…
+									253 link Description: Honolulu, HI, Value: rover.com/honolulu-…
+									254 link Description: Houston, TX, Value: rover.com/houston--…
+									255 link Description: Indianapolis, IN, Value: rover.com/indianapo…
+									256 link Description: Irving, TX, Value: rover.com/irving--t…
+									257 link Description: Jacksonville, FL, Value: rover.com/jacksonvi…
+									258 link Description: Jamaica, NY, Value: rover.com/jamaica--…
+									259 link Description: Jersey City, NJ, Value: rover.com/jersey-ci…
+									260 link Description: Kansas City, MO, Value: rover.com/kansas-ci…
+									261 link Description: Laredo, TX, Value: rover.com/laredo--t…
+									262 link Description: Las Vegas, NV, Value: rover.com/las-vegas…
+									263 link Description: Lexington, KY, Value: rover.com/lexington…
+									264 link Description: Lincoln, NE, Value: rover.com/lincoln--…
+									265 link Description: Long Beach, CA, Value: rover.com/long-beac…
+									266 link Description: Los Angeles, CA, Value: rover.com/los-angel…
+									267 link Description: Louisville, KY, Value: rover.com/louisvill…
+									268 link Description: Lubbock, TX, Value: rover.com/lubbock--…
+									269 link Description: Madison, WI, Value: rover.com/madison--…
+									270 link Description: Manhattan, NY, Value: rover.com/manhattan…
+									271 link Description: Memphis, TN, Value: rover.com/memphis--…
+									272 link Description: Mesa, AZ, Value: rover.com/mesa--az-…
+									273 link Description: Miami, FL, Value: rover.com/miami--fl…
+									274 link Description: Milwaukee, WI, Value: rover.com/milwaukee…
+									275 link Description: Minneapolis, MN, Value: rover.com/minneapol…
+									276 link Description: Nashville, TN, Value: rover.com/nashville…
+									277 link Description: New Orleans, LA, Value: rover.com/new-orlea…
+									278 link Description: New York City, NY, Value: rover.com/new-york-…
+									279 link Description: New York, NY, Value: rover.com/new-york-…
+									280 link Description: Newark, NJ, Value: rover.com/newark--n…
+									281 link Description: Norfolk, VA, Value: rover.com/norfolk--…
+									282 link Description: North Las Vegas, NV, Value: rover.com/north-las…
+									283 link Description: Oakland, CA, Value: rover.com/oakland--…
+									284 link Description: Oklahoma City, OK, Value: rover.com/oklahoma-…
+									285 link Description: Omaha, NE, Value: rover.com/omaha--ne…
+									286 link Description: Orlando, FL, Value: rover.com/orlando--…
+									287 link Description: Philadelphia, PA, Value: rover.com/philadelp…
+									288 link Description: Phoenix, AZ, Value: rover.com/phoenix--…
+									289 link Description: Pittsburgh, PA, Value: rover.com/pittsburg…
+									290 link Description: Plano, TX, Value: rover.com/plano--tx…
+									291 link Description: Portland, OR, Value: rover.com/portland-…
+									292 link Description: Queens, NY, Value: rover.com/queens--n…
+									293 link Description: Raleigh, NC, Value: rover.com/raleigh--…
+									294 link Description: Reno, NV, Value: rover.com/reno--nv-…
+									295 link Description: Riverside, CA, Value: rover.com/riverside…
+									296 link Description: Sacramento, CA, Value: rover.com/sacrament…
+									297 link Description: Saint Louis, MO, Value: rover.com/st-louis-…
+									298 link Description: Saint Paul, MN, Value: rover.com/saint-pau…
+									299 link Description: Saint Petersburg, FL, Value: rover.com/saint-pet…
+									300 link Description: San Antonio, TX, Value: rover.com/san-anton…
+									301 link Description: San Diego, CA, Value: rover.com/san-diego…
+									302 link Description: San Francisco, CA, Value: rover.com/san-franc…
+									303 link Description: San Jose, CA, Value: rover.com/san-jose-…
+									304 link Description: Santa Ana, CA, Value: rover.com/santa-ana…
+									305 link Description: Scottsdale, AZ, Value: rover.com/scottsdal…
+									306 link Description: Seattle, WA, Value: rover.com/seattle--…
+									307 link Description: South Boston, MA, Value: rover.com/south-bos…
+									308 link Description: Staten Island, NY, Value: rover.com/staten-is…
+									309 link Description: Stockton, CA, Value: rover.com/stockton-…
+									310 link Description: Tampa, FL, Value: rover.com/tampa--fl…
+									311 link Description: Toledo, OH, Value: rover.com/toledo--o…
+									312 link Description: Tucson, AZ, Value: rover.com/tucson--a…
+									313 link Description: Tulsa, OK, Value: rover.com/tulsa--ok…
+									314 link Description: Virginia Beach, VA, Value: rover.com/virginia-…
+									315 link Description: Washington, D.C., DC, Value: rover.com/washingto…
+									316 link Description: Wichita, KS, Value: rover.com/wichita--…
+									317 link Description: Winston-Salem, NC, Value: rover.com/winston-s…
+							318 container Pet care across the United States
+								319 button Pet care across the United States
+							320 container Pet care across the United States
+								321 content list
+									322 link Description: Alabama, Value: rover.com/us/al/
+									323 link Description: Alaska, Value: rover.com/us/ak/
+									324 link Description: Arizona, Value: rover.com/us/az/
+									325 link Description: Arkansas, Value: rover.com/us/ar/
+									326 link Description: California, Value: rover.com/us/ca/
+									327 link Description: Colorado, Value: rover.com/us/co/
+									328 link Description: Connecticut, Value: rover.com/us/ct/
+									329 link Description: Delaware, Value: rover.com/us/de/
+									330 link Description: District of Columbia, Value: rover.com/us/dc/
+									331 link Description: Florida, Value: rover.com/us/fl/
+									332 link Description: Georgia, Value: rover.com/us/ga/
+									333 link Description: Hawaii, Value: rover.com/us/hi/
+									334 link Description: Idaho, Value: rover.com/us/id/
+									335 link Description: Illinois, Value: rover.com/us/il/
+									336 link Description: Indiana, Value: rover.com/us/in/
+									337 link Description: Iowa, Value: rover.com/us/ia/
+									338 link Description: Kansas, Value: rover.com/us/ks/
+									339 link Description: Kentucky, Value: rover.com/us/ky/
+									340 link Description: Louisiana, Value: rover.com/us/la/
+									341 link Description: Maine, Value: rover.com/us/me/
+									342 link Description: Maryland, Value: rover.com/us/md/
+									343 link Description: Massachusetts, Value: rover.com/us/ma/
+									344 link Description: Michigan, Value: rover.com/us/mi/
+									345 link Description: Minnesota, Value: rover.com/us/mn/
+									346 link Description: Mississippi, Value: rover.com/us/ms/
+									347 link Description: Missouri, Value: rover.com/us/mo/
+									348 link Description: Montana, Value: rover.com/us/mt/
+									349 link Description: Nebraska, Value: rover.com/us/ne/
+									350 link Description: Nevada, Value: rover.com/us/nv/
+									351 link Description: New Hampshire, Value: rover.com/us/nh/
+									352 link Description: New Jersey, Value: rover.com/us/nj/
+									353 link Description: New Mexico, Value: rover.com/us/nm/
+									354 link Description: New York, Value: rover.com/us/ny/
+									355 link Description: North Carolina, Value: rover.com/us/nc/
+									356 link Description: North Dakota, Value: rover.com/us/nd/
+									357 link Description: Ohio, Value: rover.com/us/oh/
+									358 link Description: Oklahoma, Value: rover.com/us/ok/
+									359 link Description: Oregon, Value: rover.com/us/or/
+									360 link Description: Pennsylvania, Value: rover.com/us/pa/
+									361 link Description: Rhode Island, Value: rover.com/us/ri/
+									362 link Description: South Carolina, Value: rover.com/us/sc/
+									363 link Description: South Dakota, Value: rover.com/us/sd/
+									364 link Description: Tennessee, Value: rover.com/us/tn/
+									365 link Description: Texas, Value: rover.com/us/tx/
+									366 link Description: Utah, Value: rover.com/us/ut/
+									367 link Description: Vermont, Value: rover.com/us/vt/
+									368 link Description: Virginia, Value: rover.com/us/va/
+									369 link Description: Washington, Value: rover.com/us/wa/
+									370 link Description: West Virginia, Value: rover.com/us/wv/
+									371 link Description: Wisconsin, Value: rover.com/us/wi/
+									372 link Description: Wyoming, Value: rover.com/us/wy/
+							373 container Pet care all over the world
+								374 button Pet care all over the world
+							375 container Pet care all over the world
+								376 content list
+									377 link Description: Canada, Value: rover.com/ca/
+									378 link Description: United Kingdom, Value: rover.com/uk/
+									379 link Description: Germany, Value: rover.com/de/
+									380 link Description: Spain, Value: rover.com/es/
+									381 link Description: France, Value: rover.com/fr/
+									382 link Description: Italy, Value: rover.com/it/
+									383 link Description: Netherlands, Value: rover.com/nl/
+									384 link Description: Norway, Value: rover.com/no/
+									385 link Description: Sweden, Value: rover.com/se/
+									386 link Description: Denmark, Value: rover.com/dk/
+									387 link Description: Ireland, Value: rover.com/ie/
+									388 link Description: Poland, Value: rover.com/pl/
+									389 link Description: Switzerland, Value: rover.com/ch/
+									390 link Description: Finland, Value: rover.com/fi/
+									391 link Description: Austria, Value: rover.com/at/
+									392 link Description: Belgium, Value: rover.com/be/
+						393 text Learn More
+						394 link Description: Read Our Blog, Value: rover.com/blog/
+						395 link Description: RoverProtect, Value: rover.com/rover-pro…
+						396 link Description: Safety, Value: rover.com/blog/safe…
+						397 text About Rover
+						398 link Description: About Us, Value: rover.com/about-us/
+						399 link Description: Contact Us, Value: support.rover.com/h…
+						400 link Description: Get the App, Value: rover.com/app/
+						401 link Description: Press, Value: rover.com/blog/press
+						402 link Description: Careers, Value: rover.com/careers/
+						403 link Description: Investor Relations, Value: rover.com/blog/pres…
+						404 link Description: Privacy Statement, Value: rover.com/terms/pri…
+						405 link Description: Terms of Service, Value: rover.com/terms/tos/
+						406 text Need Help?
+						407 link Description: Help Center, Value: support.rover.com/h…
+						408 link Description: Your privacy choices, Value: rover.com/terms/pri…
+						409 text All the pet care tips you need—right to your inbox
+						410 container
+							411 text Receive the latest adorable pet photos, care tips, training advice, product recommendations, and more. Your Email...
+							412 text field (settable) Your Email...
+							413 button Sign up
+							414 text By providing my email address, I consent to receive marketing communications from Rover.com and its affiliates and confirm that I am 18 years of age or older. I can unsubscribe at any time.
+							415 link Description: Privacy Statement, Value: rover.com/terms/pri…
+						416 link Description: Follow Rover on Facebook, Value: facebook.com/RoverD…
+						417 link Description: Follow Rover on Instagram, Value: instagram.com/rover…
+						418 link Description: Follow Rover on LinkedIn, Value: linkedin.com/compan…
+						419 link Description: Subscribe to Rover's YouTube, Value: youtube.com/roverdo…
+						420 link Description: Follow Rover on TikTok, Value: tiktok.com/@roverdo…
+						421 text ©  2026  A Place for Rover, Inc. All Rights Reserved.
+			422 pop up button Tab Search
+			423 container
+				424 tab group
+					425 tab (settable, boolean) Description: Facebook Marketplace | Facebook - Memory usage - 456 MB, Value: off
+						426 button Close
+					427 tab (settable, boolean) Description: Arsent Dental Gianyar | Layanan dan Harga Perawatan Gigi - Memory usage - 127 MB, Value: off
+						428 button Close
+					429 tab (selected, settable, boolean) Description: Book Dog Boarding, Cat Sitting, Walking & Training - Rover.com, Value: on
+						430 button Close
+			431 button New Tab
+			432 button Open Gemini in Chrome
+	433 close button
+	434 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	435 minimize button
+436 menu bar
+	437 Chrome
+	438 File
+	439 Edit
+	440 View
+	441 History
+	442 Bookmarks
+	443 Profiles
+	444 Tab
+	445 Window
+	446 Help
+
+The focused UI element is 18 HTML content Book Dog Boarding, Cat Sitting, Walking & Training - Rover.com, URL: rover.com/

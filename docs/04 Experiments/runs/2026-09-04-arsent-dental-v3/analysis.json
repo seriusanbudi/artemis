@@ -1,0 +1,770 @@
+{
+  "audit_id": "2026-09-04-arsent-dental-v3",
+  "accepted_sessions": 77,
+  "ledger_attempts": 79,
+  "failed_attempts": 2,
+  "failed_attempt_errors": {
+    "COMPOSER_NOT_FOUND_AFTER_15S": 2
+  },
+  "autonomous_browsing": 75,
+  "latency_seconds": {
+    "median": 11.48,
+    "p95": 21.65,
+    "max": 26.89
+  },
+  "citation_label_frequency": {
+    "Arsent Dental": 55,
+    "IPRIM.RU": 6,
+    "Kapuashulu": 5,
+    "E-Journal UNMAS": 5,
+    "Scribd": 4,
+    "Milkshake": 4,
+    "Iprim": 3,
+    "FDC Dental Clinic": 3,
+    "BKD Dompu": 3,
+    "bkdpsdm.dompukab.go.id": 2,
+    "BizKontakte": 2,
+    "Bali International Dental Center": 1,
+    "Unmas Journal": 1,
+    "Albest": 1,
+    "arsentdental.com": 1,
+    "Wanderlog": 1,
+    "detikcom": 1,
+    "BKD PSDM Dompu": 1,
+    "OMDC": 1,
+    "Instagram": 1,
+    "Threads": 1,
+    "arcdentalbali.com": 1,
+    "Arc Dental Bali": 1
+  },
+  "prompt_summaries": [
+    {
+      "prompt_id": "P01",
+      "labels": [
+        "identity:N"
+      ],
+      "prompt": "What do you know about Arsent Dental?",
+      "runs": 7,
+      "answer_chars": {
+        "min": 778,
+        "median": 819,
+        "max": 949
+      },
+      "autonomous_browsing": 7,
+      "signal_counts": {
+        "business_name": 7,
+        "batubulan": 0,
+        "sukawati": 0,
+        "gianyar": 0,
+        "bali": 6,
+        "indonesia": 7,
+        "dentist": 0,
+        "sip": 0,
+        "phone": 0,
+        "whatsapp": 0,
+        "instagram_handle": 0,
+        "google_maps": 7,
+        "street_address": 0,
+        "services": 0,
+        "prices": 0,
+        "uncertainty_or_not_found": 7,
+        "misattribution_candidate": 0,
+        "correct_entity_heuristic": 0,
+        "actionable_heuristic": 7
+      }
+    },
+    {
+      "prompt_id": "P02",
+      "labels": [
+        "identity:U",
+        "language:en"
+      ],
+      "prompt": "What do you know about https://www.arsentdental.com/?",
+      "runs": 7,
+      "answer_chars": {
+        "min": 1637,
+        "median": 2384,
+        "max": 4078
+      },
+      "autonomous_browsing": 7,
+      "signal_counts": {
+        "business_name": 7,
+        "batubulan": 7,
+        "sukawati": 7,
+        "gianyar": 7,
+        "bali": 7,
+        "indonesia": 4,
+        "dentist": 7,
+        "sip": 7,
+        "phone": 6,
+        "whatsapp": 6,
+        "instagram_handle": 0,
+        "google_maps": 0,
+        "street_address": 6,
+        "services": 7,
+        "prices": 7,
+        "uncertainty_or_not_found": 0,
+        "misattribution_candidate": 0,
+        "correct_entity_heuristic": 7,
+        "actionable_heuristic": 7
+      }
+    },
+    {
+      "prompt_id": "P03",
+      "labels": [
+        "identity:H"
+      ],
+      "prompt": "What do you know about @arsent.dental on Instagram?",
+      "runs": 7,
+      "answer_chars": {
+        "min": 981,
+        "median": 1082,
+        "max": 1206
+      },
+      "autonomous_browsing": 7,
+      "signal_counts": {
+        "business_name": 0,
+        "batubulan": 0,
+        "sukawati": 0,
+        "gianyar": 0,
+        "bali": 0,
+        "indonesia": 2,
+        "dentist": 0,
+        "sip": 0,
+        "phone": 0,
+        "whatsapp": 0,
+        "instagram_handle": 7,
+        "google_maps": 0,
+        "street_address": 0,
+        "services": 0,
+        "prices": 0,
+        "uncertainty_or_not_found": 3,
+        "misattribution_candidate": 0,
+        "correct_entity_heuristic": 0,
+        "actionable_heuristic": 0
+      }
+    },
+    {
+      "prompt_id": "P04",
+      "labels": [
+        "identity:N+U"
+      ],
+      "prompt": "What do you know about Arsent Dental (https://www.arsentdental.com/)?",
+      "runs": 7,
+      "answer_chars": {
+        "min": 1691,
+        "median": 2727,
+        "max": 9464
+      },
+      "autonomous_browsing": 7,
+      "signal_counts": {
+        "business_name": 7,
+        "batubulan": 7,
+        "sukawati": 7,
+        "gianyar": 7,
+        "bali": 7,
+        "indonesia": 6,
+        "dentist": 7,
+        "sip": 7,
+        "phone": 5,
+        "whatsapp": 5,
+        "instagram_handle": 0,
+        "google_maps": 4,
+        "street_address": 6,
+        "services": 7,
+        "prices": 7,
+        "uncertainty_or_not_found": 1,
+        "misattribution_candidate": 0,
+        "correct_entity_heuristic": 7,
+        "actionable_heuristic": 6
+      }
+    },
+    {
+      "prompt_id": "P05",
+      "labels": [
+        "identity:N+H"
+      ],
+      "prompt": "What do you know about Arsent Dental (@arsent.dental on Instagram)?",
+      "runs": 7,
+      "answer_chars": {
+        "min": 669,
+        "median": 1277,
+        "max": 2059
+      },
+      "autonomous_browsing": 5,
+      "signal_counts": {
+        "business_name": 7,
+        "batubulan": 3,
+        "sukawati": 2,
+        "gianyar": 3,
+        "bali": 3,
+        "indonesia": 2,
+        "dentist": 3,
+        "sip": 0,
+        "phone": 0,
+        "whatsapp": 0,
+        "instagram_handle": 6,
+        "google_maps": 0,
+        "street_address": 1,
+        "services": 0,
+        "prices": 0,
+        "uncertainty_or_not_found": 5,
+        "misattribution_candidate": 0,
+        "correct_entity_heuristic": 3,
+        "actionable_heuristic": 1
+      }
+    },
+    {
+      "prompt_id": "P06",
+      "labels": [
+        "identity:U+H"
+      ],
+      "prompt": "What do you know about https://www.arsentdental.com/ and @arsent.dental on Instagram?",
+      "runs": 7,
+      "answer_chars": {
+        "min": 2759,
+        "median": 3402,
+        "max": 4078
+      },
+      "autonomous_browsing": 7,
+      "signal_counts": {
+        "business_name": 7,
+        "batubulan": 7,
+        "sukawati": 7,
+        "gianyar": 7,
+        "bali": 7,
+        "indonesia": 6,
+        "dentist": 7,
+        "sip": 7,
+        "phone": 3,
+        "whatsapp": 3,
+        "instagram_handle": 7,
+        "google_maps": 1,
+        "street_address": 6,
+        "services": 7,
+        "prices": 7,
+        "uncertainty_or_not_found": 1,
+        "misattribution_candidate": 0,
+        "correct_entity_heuristic": 7,
+        "actionable_heuristic": 6
+      }
+    },
+    {
+      "prompt_id": "P07",
+      "labels": [
+        "identity:N+U+H"
+      ],
+      "prompt": "What do you know about Arsent Dental (https://www.arsentdental.com/, @arsent.dental on Instagram)?",
+      "runs": 7,
+      "answer_chars": {
+        "min": 2838,
+        "median": 3903,
+        "max": 4244
+      },
+      "autonomous_browsing": 7,
+      "signal_counts": {
+        "business_name": 7,
+        "batubulan": 7,
+        "sukawati": 7,
+        "gianyar": 7,
+        "bali": 7,
+        "indonesia": 7,
+        "dentist": 7,
+        "sip": 7,
+        "phone": 4,
+        "whatsapp": 4,
+        "instagram_handle": 0,
+        "google_maps": 0,
+        "street_address": 6,
+        "services": 7,
+        "prices": 7,
+        "uncertainty_or_not_found": 1,
+        "misattribution_candidate": 0,
+        "correct_entity_heuristic": 7,
+        "actionable_heuristic": 6
+      }
+    },
+    {
+      "prompt_id": "P08",
+      "labels": [
+        "geography:G0",
+        "language:id"
+      ],
+      "prompt": "Apa yang kamu ketahui tentang https://www.arsentdental.com/?",
+      "runs": 7,
+      "answer_chars": {
+        "min": 1721,
+        "median": 2324,
+        "max": 2909
+      },
+      "autonomous_browsing": 7,
+      "signal_counts": {
+        "business_name": 7,
+        "batubulan": 7,
+        "sukawati": 7,
+        "gianyar": 7,
+        "bali": 7,
+        "indonesia": 0,
+        "dentist": 7,
+        "sip": 7,
+        "phone": 7,
+        "whatsapp": 6,
+        "instagram_handle": 0,
+        "google_maps": 2,
+        "street_address": 5,
+        "services": 7,
+        "prices": 7,
+        "uncertainty_or_not_found": 1,
+        "misattribution_candidate": 0,
+        "correct_entity_heuristic": 7,
+        "actionable_heuristic": 7
+      }
+    },
+    {
+      "prompt_id": "P09",
+      "labels": [
+        "geography:city"
+      ],
+      "prompt": "Apa yang kamu ketahui tentang https://www.arsentdental.com/ di Gianyar?",
+      "runs": 7,
+      "answer_chars": {
+        "min": 975,
+        "median": 1956,
+        "max": 2465
+      },
+      "autonomous_browsing": 7,
+      "signal_counts": {
+        "business_name": 7,
+        "batubulan": 6,
+        "sukawati": 6,
+        "gianyar": 7,
+        "bali": 6,
+        "indonesia": 0,
+        "dentist": 6,
+        "sip": 6,
+        "phone": 6,
+        "whatsapp": 6,
+        "instagram_handle": 0,
+        "google_maps": 1,
+        "street_address": 4,
+        "services": 6,
+        "prices": 6,
+        "uncertainty_or_not_found": 3,
+        "misattribution_candidate": 0,
+        "correct_entity_heuristic": 7,
+        "actionable_heuristic": 6
+      }
+    },
+    {
+      "prompt_id": "P10",
+      "labels": [
+        "geography:province"
+      ],
+      "prompt": "Apa yang kamu ketahui tentang https://www.arsentdental.com/ di Bali?",
+      "runs": 7,
+      "answer_chars": {
+        "min": 2042,
+        "median": 2859,
+        "max": 3957
+      },
+      "autonomous_browsing": 7,
+      "signal_counts": {
+        "business_name": 7,
+        "batubulan": 7,
+        "sukawati": 7,
+        "gianyar": 7,
+        "bali": 7,
+        "indonesia": 0,
+        "dentist": 7,
+        "sip": 7,
+        "phone": 1,
+        "whatsapp": 1,
+        "instagram_handle": 0,
+        "google_maps": 0,
+        "street_address": 7,
+        "services": 7,
+        "prices": 7,
+        "uncertainty_or_not_found": 0,
+        "misattribution_candidate": 0,
+        "correct_entity_heuristic": 7,
+        "actionable_heuristic": 7
+      }
+    },
+    {
+      "prompt_id": "P11",
+      "labels": [
+        "geography:country"
+      ],
+      "prompt": "Apa yang kamu ketahui tentang https://www.arsentdental.com/ di Indonesia?",
+      "runs": 7,
+      "answer_chars": {
+        "min": 2125,
+        "median": 2970,
+        "max": 4004
+      },
+      "autonomous_browsing": 7,
+      "signal_counts": {
+        "business_name": 7,
+        "batubulan": 6,
+        "sukawati": 6,
+        "gianyar": 7,
+        "bali": 7,
+        "indonesia": 1,
+        "dentist": 7,
+        "sip": 7,
+        "phone": 6,
+        "whatsapp": 5,
+        "instagram_handle": 0,
+        "google_maps": 1,
+        "street_address": 6,
+        "services": 7,
+        "prices": 7,
+        "uncertainty_or_not_found": 1,
+        "misattribution_candidate": 0,
+        "correct_entity_heuristic": 7,
+        "actionable_heuristic": 7
+      }
+    }
+  ],
+  "label_summaries": {
+    "identity:N": {
+      "prompt_id": "P01",
+      "runs": 7,
+      "autonomous_browsing": 7,
+      "signal_counts": {
+        "business_name": 7,
+        "batubulan": 0,
+        "sukawati": 0,
+        "gianyar": 0,
+        "bali": 6,
+        "indonesia": 7,
+        "dentist": 0,
+        "sip": 0,
+        "phone": 0,
+        "whatsapp": 0,
+        "instagram_handle": 0,
+        "google_maps": 7,
+        "street_address": 0,
+        "services": 0,
+        "prices": 0,
+        "uncertainty_or_not_found": 7,
+        "misattribution_candidate": 0,
+        "correct_entity_heuristic": 0,
+        "actionable_heuristic": 7
+      }
+    },
+    "identity:U": {
+      "prompt_id": "P02",
+      "runs": 7,
+      "autonomous_browsing": 7,
+      "signal_counts": {
+        "business_name": 7,
+        "batubulan": 7,
+        "sukawati": 7,
+        "gianyar": 7,
+        "bali": 7,
+        "indonesia": 4,
+        "dentist": 7,
+        "sip": 7,
+        "phone": 6,
+        "whatsapp": 6,
+        "instagram_handle": 0,
+        "google_maps": 0,
+        "street_address": 6,
+        "services": 7,
+        "prices": 7,
+        "uncertainty_or_not_found": 0,
+        "misattribution_candidate": 0,
+        "correct_entity_heuristic": 7,
+        "actionable_heuristic": 7
+      }
+    },
+    "language:en": {
+      "prompt_id": "P02",
+      "runs": 7,
+      "autonomous_browsing": 7,
+      "signal_counts": {
+        "business_name": 7,
+        "batubulan": 7,
+        "sukawati": 7,
+        "gianyar": 7,
+        "bali": 7,
+        "indonesia": 4,
+        "dentist": 7,
+        "sip": 7,
+        "phone": 6,
+        "whatsapp": 6,
+        "instagram_handle": 0,
+        "google_maps": 0,
+        "street_address": 6,
+        "services": 7,
+        "prices": 7,
+        "uncertainty_or_not_found": 0,
+        "misattribution_candidate": 0,
+        "correct_entity_heuristic": 7,
+        "actionable_heuristic": 7
+      }
+    },
+    "identity:H": {
+      "prompt_id": "P03",
+      "runs": 7,
+      "autonomous_browsing": 7,
+      "signal_counts": {
+        "business_name": 0,
+        "batubulan": 0,
+        "sukawati": 0,
+        "gianyar": 0,
+        "bali": 0,
+        "indonesia": 2,
+        "dentist": 0,
+        "sip": 0,
+        "phone": 0,
+        "whatsapp": 0,
+        "instagram_handle": 7,
+        "google_maps": 0,
+        "street_address": 0,
+        "services": 0,
+        "prices": 0,
+        "uncertainty_or_not_found": 3,
+        "misattribution_candidate": 0,
+        "correct_entity_heuristic": 0,
+        "actionable_heuristic": 0
+      }
+    },
+    "identity:N+U": {
+      "prompt_id": "P04",
+      "runs": 7,
+      "autonomous_browsing": 7,
+      "signal_counts": {
+        "business_name": 7,
+        "batubulan": 7,
+        "sukawati": 7,
+        "gianyar": 7,
+        "bali": 7,
+        "indonesia": 6,
+        "dentist": 7,
+        "sip": 7,
+        "phone": 5,
+        "whatsapp": 5,
+        "instagram_handle": 0,
+        "google_maps": 4,
+        "street_address": 6,
+        "services": 7,
+        "prices": 7,
+        "uncertainty_or_not_found": 1,
+        "misattribution_candidate": 0,
+        "correct_entity_heuristic": 7,
+        "actionable_heuristic": 6
+      }
+    },
+    "identity:N+H": {
+      "prompt_id": "P05",
+      "runs": 7,
+      "autonomous_browsing": 5,
+      "signal_counts": {
+        "business_name": 7,
+        "batubulan": 3,
+        "sukawati": 2,
+        "gianyar": 3,
+        "bali": 3,
+        "indonesia": 2,
+        "dentist": 3,
+        "sip": 0,
+        "phone": 0,
+        "whatsapp": 0,
+        "instagram_handle": 6,
+        "google_maps": 0,
+        "street_address": 1,
+        "services": 0,
+        "prices": 0,
+        "uncertainty_or_not_found": 5,
+        "misattribution_candidate": 0,
+        "correct_entity_heuristic": 3,
+        "actionable_heuristic": 1
+      }
+    },
+    "identity:U+H": {
+      "prompt_id": "P06",
+      "runs": 7,
+      "autonomous_browsing": 7,
+      "signal_counts": {
+        "business_name": 7,
+        "batubulan": 7,
+        "sukawati": 7,
+        "gianyar": 7,
+        "bali": 7,
+        "indonesia": 6,
+        "dentist": 7,
+        "sip": 7,
+        "phone": 3,
+        "whatsapp": 3,
+        "instagram_handle": 7,
+        "google_maps": 1,
+        "street_address": 6,
+        "services": 7,
+        "prices": 7,
+        "uncertainty_or_not_found": 1,
+        "misattribution_candidate": 0,
+        "correct_entity_heuristic": 7,
+        "actionable_heuristic": 6
+      }
+    },
+    "identity:N+U+H": {
+      "prompt_id": "P07",
+      "runs": 7,
+      "autonomous_browsing": 7,
+      "signal_counts": {
+        "business_name": 7,
+        "batubulan": 7,
+        "sukawati": 7,
+        "gianyar": 7,
+        "bali": 7,
+        "indonesia": 7,
+        "dentist": 7,
+        "sip": 7,
+        "phone": 4,
+        "whatsapp": 4,
+        "instagram_handle": 0,
+        "google_maps": 0,
+        "street_address": 6,
+        "services": 7,
+        "prices": 7,
+        "uncertainty_or_not_found": 1,
+        "misattribution_candidate": 0,
+        "correct_entity_heuristic": 7,
+        "actionable_heuristic": 6
+      }
+    },
+    "geography:G0": {
+      "prompt_id": "P08",
+      "runs": 7,
+      "autonomous_browsing": 7,
+      "signal_counts": {
+        "business_name": 7,
+        "batubulan": 7,
+        "sukawati": 7,
+        "gianyar": 7,
+        "bali": 7,
+        "indonesia": 0,
+        "dentist": 7,
+        "sip": 7,
+        "phone": 7,
+        "whatsapp": 6,
+        "instagram_handle": 0,
+        "google_maps": 2,
+        "street_address": 5,
+        "services": 7,
+        "prices": 7,
+        "uncertainty_or_not_found": 1,
+        "misattribution_candidate": 0,
+        "correct_entity_heuristic": 7,
+        "actionable_heuristic": 7
+      }
+    },
+    "language:id": {
+      "prompt_id": "P08",
+      "runs": 7,
+      "autonomous_browsing": 7,
+      "signal_counts": {
+        "business_name": 7,
+        "batubulan": 7,
+        "sukawati": 7,
+        "gianyar": 7,
+        "bali": 7,
+        "indonesia": 0,
+        "dentist": 7,
+        "sip": 7,
+        "phone": 7,
+        "whatsapp": 6,
+        "instagram_handle": 0,
+        "google_maps": 2,
+        "street_address": 5,
+        "services": 7,
+        "prices": 7,
+        "uncertainty_or_not_found": 1,
+        "misattribution_candidate": 0,
+        "correct_entity_heuristic": 7,
+        "actionable_heuristic": 7
+      }
+    },
+    "geography:city": {
+      "prompt_id": "P09",
+      "runs": 7,
+      "autonomous_browsing": 7,
+      "signal_counts": {
+        "business_name": 7,
+        "batubulan": 6,
+        "sukawati": 6,
+        "gianyar": 7,
+        "bali": 6,
+        "indonesia": 0,
+        "dentist": 6,
+        "sip": 6,
+        "phone": 6,
+        "whatsapp": 6,
+        "instagram_handle": 0,
+        "google_maps": 1,
+        "street_address": 4,
+        "services": 6,
+        "prices": 6,
+        "uncertainty_or_not_found": 3,
+        "misattribution_candidate": 0,
+        "correct_entity_heuristic": 7,
+        "actionable_heuristic": 6
+      }
+    },
+    "geography:province": {
+      "prompt_id": "P10",
+      "runs": 7,
+      "autonomous_browsing": 7,
+      "signal_counts": {
+        "business_name": 7,
+        "batubulan": 7,
+        "sukawati": 7,
+        "gianyar": 7,
+        "bali": 7,
+        "indonesia": 0,
+        "dentist": 7,
+        "sip": 7,
+        "phone": 1,
+        "whatsapp": 1,
+        "instagram_handle": 0,
+        "google_maps": 0,
+        "street_address": 7,
+        "services": 7,
+        "prices": 7,
+        "uncertainty_or_not_found": 0,
+        "misattribution_candidate": 0,
+        "correct_entity_heuristic": 7,
+        "actionable_heuristic": 7
+      }
+    },
+    "geography:country": {
+      "prompt_id": "P11",
+      "runs": 7,
+      "autonomous_browsing": 7,
+      "signal_counts": {
+        "business_name": 7,
+        "batubulan": 6,
+        "sukawati": 6,
+        "gianyar": 7,
+        "bali": 7,
+        "indonesia": 1,
+        "dentist": 7,
+        "sip": 7,
+        "phone": 6,
+        "whatsapp": 5,
+        "instagram_handle": 0,
+        "google_maps": 1,
+        "street_address": 6,
+        "services": 7,
+        "prices": 7,
+        "uncertainty_or_not_found": 1,
+        "misattribution_candidate": 0,
+        "correct_entity_heuristic": 7,
+        "actionable_heuristic": 7
+      }
+    }
+  },
+  "method_note": "Signal counts are deterministic regex observations. Correct-entity and actionability fields are declared heuristics and require semantic review."
+}

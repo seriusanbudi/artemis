@@ -1,0 +1,112 @@
+{
+  "captured_at": "2026-09-04T16:49:37+08:00",
+  "source_url": "https://www.arsentdental.com/",
+  "scope": "exact_submitted_landing_page_only",
+  "fields": {
+    "name": {
+      "value": "Arsent Dental",
+      "status": "page_declared",
+      "source_url": "https://www.arsentdental.com/",
+      "evidence": "Page title, logo alternative text, service heading, and footer"
+    },
+    "business_type": {
+      "value": "Dental clinic",
+      "status": "page_declared",
+      "source_url": "https://www.arsentdental.com/",
+      "evidence": "Dental examination, consultation, scaling, and treatment copy"
+    },
+    "dentist": {
+      "value": "drg. I Made Gde Artha Sentana, S.K.G.",
+      "status": "page_declared",
+      "source_url": "https://www.arsentdental.com/",
+      "evidence": "Dentist section and hero copy"
+    },
+    "sip": {
+      "value": "MR51042607013475",
+      "status": "page_declared",
+      "source_url": "https://www.arsentdental.com/",
+      "evidence": "Dentist section and footer"
+    },
+    "address": {
+      "value": "Jl. Batuyang No. 25, Batubulan Kangin, Sukawati, Gianyar, Bali",
+      "status": "page_declared",
+      "source_url": "https://www.arsentdental.com/",
+      "evidence": "Footer address"
+    },
+    "city_context": {
+      "value": "Gianyar",
+      "status": "page_declared",
+      "source_url": "https://www.arsentdental.com/",
+      "evidence": "Page title and footer address; operationally this is a regency-level label used as the v1 city context"
+    },
+    "province": {
+      "value": "Bali",
+      "status": "page_declared",
+      "source_url": "https://www.arsentdental.com/",
+      "evidence": "Footer address"
+    },
+    "country": {
+      "value": "Indonesia",
+      "status": "agent_discovered",
+      "source_url": "https://www.arsentdental.com/",
+      "evidence": "Country is not explicit in the visible landing-page address; promoted from the preceding seven-run URL feasibility bootstrap at the 4/7 threshold"
+    },
+    "phone": {
+      "value": "+62 812 3837 4696",
+      "status": "page_declared",
+      "source_url": "https://www.arsentdental.com/",
+      "evidence": "Footer telephone link and WhatsApp links"
+    },
+    "whatsapp": {
+      "value": "https://wa.me/6281238374696",
+      "status": "page_declared",
+      "source_url": "https://www.arsentdental.com/",
+      "evidence": "Appointment links"
+    },
+    "instagram": {
+      "value": "@arsent.dental",
+      "platform": "Instagram",
+      "status": "page_declared",
+      "source_url": "https://www.arsentdental.com/",
+      "evidence": "Footer link to instagram.com/arsent.dental/"
+    },
+    "google_maps": {
+      "value": "https://maps.app.goo.gl/cgbD6aVa3wPwdcoy6",
+      "status": "page_declared",
+      "source_url": "https://www.arsentdental.com/",
+      "evidence": "Footer Google Maps link"
+    },
+    "services": {
+      "value": [
+        "Dental examination",
+        "Dental consultation",
+        "Scaling and teeth cleaning",
+        "Fillings and conservative dentistry",
+        "Tooth extraction and oral surgery",
+        "Dentures and crowns",
+        "Orthodontics",
+        "Urgent dental care"
+      ],
+      "status": "page_declared",
+      "source_url": "https://www.arsentdental.com/",
+      "evidence": "Service cards and FAQ"
+    },
+    "price_examples": {
+      "value": {
+        "examination": "Rp100.000",
+        "consultation": "Rp100.000 (optional)",
+        "scaling": "Rp250.000–Rp350.000",
+        "advanced_treatment": "from Rp100.000",
+        "urgent_care": "from Rp150.000"
+      },
+      "status": "page_declared",
+      "source_url": "https://www.arsentdental.com/",
+      "evidence": "Homepage service cards"
+    }
+  },
+  "limitations": [
+    "The landing page is the business's published claim set, not independently verified truth.",
+    "Gianyar is used in the city matrix slot although the visible address hierarchy is village, district, regency, and province.",
+    "Indonesia was promoted from the separate feasibility bootstrap because it is not explicit in the visible address."
+  ]
+}

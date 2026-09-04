@@ -1,0 +1,1239 @@
+{
+  "audit_id": "2026-09-04-rover-v1",
+  "protocol_version": "agent-glasses-v1",
+  "target_url": "https://www.rover.com/",
+  "repeats": 7,
+  "unique_prompts": 10,
+  "conceptual_matrix_cells": 12,
+  "planned_sessions": 70,
+  "prompts": [
+    {
+      "prompt": "What do you know about Rover?",
+      "labels": [
+        "identity:N"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N"
+      ],
+      "location_level": null,
+      "prompt_id": "P01"
+    },
+    {
+      "prompt": "What do you know about https://www.rover.com/?",
+      "labels": [
+        "identity:U",
+        "geography:G0",
+        "language:en"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": null,
+      "prompt_id": "P02"
+    },
+    {
+      "prompt": "What do you know about @roverdotcom on Instagram?",
+      "labels": [
+        "identity:H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P03"
+    },
+    {
+      "prompt": "What do you know about Rover (https://www.rover.com/)?",
+      "labels": [
+        "identity:N+U"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "U"
+      ],
+      "location_level": null,
+      "prompt_id": "P04"
+    },
+    {
+      "prompt": "What do you know about Rover (@roverdotcom on Instagram)?",
+      "labels": [
+        "identity:N+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P05"
+    },
+    {
+      "prompt": "What do you know about https://www.rover.com/ and @roverdotcom on Instagram?",
+      "labels": [
+        "identity:U+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P06"
+    },
+    {
+      "prompt": "What do you know about Rover (https://www.rover.com/, @roverdotcom on Instagram)?",
+      "labels": [
+        "identity:N+U+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "U",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P07"
+    },
+    {
+      "prompt": "What do you know about https://www.rover.com/ in Seattle?",
+      "labels": [
+        "geography:city"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": "city",
+      "prompt_id": "P08"
+    },
+    {
+      "prompt": "What do you know about https://www.rover.com/ in Washington?",
+      "labels": [
+        "geography:province"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": "province",
+      "prompt_id": "P09"
+    },
+    {
+      "prompt": "What do you know about https://www.rover.com/ in United States?",
+      "labels": [
+        "geography:country"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": "country",
+      "prompt_id": "P10"
+    }
+  ],
+  "sessions": [
+    {
+      "session_id": "S0001",
+      "round": 1,
+      "execution_order": 1,
+      "prompt": "What do you know about Rover?",
+      "labels": [
+        "identity:N"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N"
+      ],
+      "location_level": null,
+      "prompt_id": "P01"
+    },
+    {
+      "session_id": "S0002",
+      "round": 1,
+      "execution_order": 2,
+      "prompt": "What do you know about https://www.rover.com/?",
+      "labels": [
+        "identity:U",
+        "geography:G0",
+        "language:en"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": null,
+      "prompt_id": "P02"
+    },
+    {
+      "session_id": "S0003",
+      "round": 1,
+      "execution_order": 3,
+      "prompt": "What do you know about @roverdotcom on Instagram?",
+      "labels": [
+        "identity:H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P03"
+    },
+    {
+      "session_id": "S0004",
+      "round": 1,
+      "execution_order": 4,
+      "prompt": "What do you know about Rover (https://www.rover.com/)?",
+      "labels": [
+        "identity:N+U"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "U"
+      ],
+      "location_level": null,
+      "prompt_id": "P04"
+    },
+    {
+      "session_id": "S0005",
+      "round": 1,
+      "execution_order": 5,
+      "prompt": "What do you know about Rover (@roverdotcom on Instagram)?",
+      "labels": [
+        "identity:N+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P05"
+    },
+    {
+      "session_id": "S0006",
+      "round": 1,
+      "execution_order": 6,
+      "prompt": "What do you know about https://www.rover.com/ and @roverdotcom on Instagram?",
+      "labels": [
+        "identity:U+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P06"
+    },
+    {
+      "session_id": "S0007",
+      "round": 1,
+      "execution_order": 7,
+      "prompt": "What do you know about Rover (https://www.rover.com/, @roverdotcom on Instagram)?",
+      "labels": [
+        "identity:N+U+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "U",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P07"
+    },
+    {
+      "session_id": "S0008",
+      "round": 1,
+      "execution_order": 8,
+      "prompt": "What do you know about https://www.rover.com/ in Seattle?",
+      "labels": [
+        "geography:city"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": "city",
+      "prompt_id": "P08"
+    },
+    {
+      "session_id": "S0009",
+      "round": 1,
+      "execution_order": 9,
+      "prompt": "What do you know about https://www.rover.com/ in Washington?",
+      "labels": [
+        "geography:province"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": "province",
+      "prompt_id": "P09"
+    },
+    {
+      "session_id": "S0010",
+      "round": 1,
+      "execution_order": 10,
+      "prompt": "What do you know about https://www.rover.com/ in United States?",
+      "labels": [
+        "geography:country"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": "country",
+      "prompt_id": "P10"
+    },
+    {
+      "session_id": "S0011",
+      "round": 2,
+      "execution_order": 11,
+      "prompt": "What do you know about Rover?",
+      "labels": [
+        "identity:N"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N"
+      ],
+      "location_level": null,
+      "prompt_id": "P01"
+    },
+    {
+      "session_id": "S0012",
+      "round": 2,
+      "execution_order": 12,
+      "prompt": "What do you know about https://www.rover.com/?",
+      "labels": [
+        "identity:U",
+        "geography:G0",
+        "language:en"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": null,
+      "prompt_id": "P02"
+    },
+    {
+      "session_id": "S0013",
+      "round": 2,
+      "execution_order": 13,
+      "prompt": "What do you know about @roverdotcom on Instagram?",
+      "labels": [
+        "identity:H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P03"
+    },
+    {
+      "session_id": "S0014",
+      "round": 2,
+      "execution_order": 14,
+      "prompt": "What do you know about Rover (https://www.rover.com/)?",
+      "labels": [
+        "identity:N+U"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "U"
+      ],
+      "location_level": null,
+      "prompt_id": "P04"
+    },
+    {
+      "session_id": "S0015",
+      "round": 2,
+      "execution_order": 15,
+      "prompt": "What do you know about Rover (@roverdotcom on Instagram)?",
+      "labels": [
+        "identity:N+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P05"
+    },
+    {
+      "session_id": "S0016",
+      "round": 2,
+      "execution_order": 16,
+      "prompt": "What do you know about https://www.rover.com/ and @roverdotcom on Instagram?",
+      "labels": [
+        "identity:U+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P06"
+    },
+    {
+      "session_id": "S0017",
+      "round": 2,
+      "execution_order": 17,
+      "prompt": "What do you know about Rover (https://www.rover.com/, @roverdotcom on Instagram)?",
+      "labels": [
+        "identity:N+U+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "U",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P07"
+    },
+    {
+      "session_id": "S0018",
+      "round": 2,
+      "execution_order": 18,
+      "prompt": "What do you know about https://www.rover.com/ in Seattle?",
+      "labels": [
+        "geography:city"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": "city",
+      "prompt_id": "P08"
+    },
+    {
+      "session_id": "S0019",
+      "round": 2,
+      "execution_order": 19,
+      "prompt": "What do you know about https://www.rover.com/ in Washington?",
+      "labels": [
+        "geography:province"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": "province",
+      "prompt_id": "P09"
+    },
+    {
+      "session_id": "S0020",
+      "round": 2,
+      "execution_order": 20,
+      "prompt": "What do you know about https://www.rover.com/ in United States?",
+      "labels": [
+        "geography:country"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": "country",
+      "prompt_id": "P10"
+    },
+    {
+      "session_id": "S0021",
+      "round": 3,
+      "execution_order": 21,
+      "prompt": "What do you know about Rover?",
+      "labels": [
+        "identity:N"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N"
+      ],
+      "location_level": null,
+      "prompt_id": "P01"
+    },
+    {
+      "session_id": "S0022",
+      "round": 3,
+      "execution_order": 22,
+      "prompt": "What do you know about https://www.rover.com/?",
+      "labels": [
+        "identity:U",
+        "geography:G0",
+        "language:en"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": null,
+      "prompt_id": "P02"
+    },
+    {
+      "session_id": "S0023",
+      "round": 3,
+      "execution_order": 23,
+      "prompt": "What do you know about @roverdotcom on Instagram?",
+      "labels": [
+        "identity:H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P03"
+    },
+    {
+      "session_id": "S0024",
+      "round": 3,
+      "execution_order": 24,
+      "prompt": "What do you know about Rover (https://www.rover.com/)?",
+      "labels": [
+        "identity:N+U"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "U"
+      ],
+      "location_level": null,
+      "prompt_id": "P04"
+    },
+    {
+      "session_id": "S0025",
+      "round": 3,
+      "execution_order": 25,
+      "prompt": "What do you know about Rover (@roverdotcom on Instagram)?",
+      "labels": [
+        "identity:N+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P05"
+    },
+    {
+      "session_id": "S0026",
+      "round": 3,
+      "execution_order": 26,
+      "prompt": "What do you know about https://www.rover.com/ and @roverdotcom on Instagram?",
+      "labels": [
+        "identity:U+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P06"
+    },
+    {
+      "session_id": "S0027",
+      "round": 3,
+      "execution_order": 27,
+      "prompt": "What do you know about Rover (https://www.rover.com/, @roverdotcom on Instagram)?",
+      "labels": [
+        "identity:N+U+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "U",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P07"
+    },
+    {
+      "session_id": "S0028",
+      "round": 3,
+      "execution_order": 28,
+      "prompt": "What do you know about https://www.rover.com/ in Seattle?",
+      "labels": [
+        "geography:city"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": "city",
+      "prompt_id": "P08"
+    },
+    {
+      "session_id": "S0029",
+      "round": 3,
+      "execution_order": 29,
+      "prompt": "What do you know about https://www.rover.com/ in Washington?",
+      "labels": [
+        "geography:province"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": "province",
+      "prompt_id": "P09"
+    },
+    {
+      "session_id": "S0030",
+      "round": 3,
+      "execution_order": 30,
+      "prompt": "What do you know about https://www.rover.com/ in United States?",
+      "labels": [
+        "geography:country"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": "country",
+      "prompt_id": "P10"
+    },
+    {
+      "session_id": "S0031",
+      "round": 4,
+      "execution_order": 31,
+      "prompt": "What do you know about Rover?",
+      "labels": [
+        "identity:N"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N"
+      ],
+      "location_level": null,
+      "prompt_id": "P01"
+    },
+    {
+      "session_id": "S0032",
+      "round": 4,
+      "execution_order": 32,
+      "prompt": "What do you know about https://www.rover.com/?",
+      "labels": [
+        "identity:U",
+        "geography:G0",
+        "language:en"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": null,
+      "prompt_id": "P02"
+    },
+    {
+      "session_id": "S0033",
+      "round": 4,
+      "execution_order": 33,
+      "prompt": "What do you know about @roverdotcom on Instagram?",
+      "labels": [
+        "identity:H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P03"
+    },
+    {
+      "session_id": "S0034",
+      "round": 4,
+      "execution_order": 34,
+      "prompt": "What do you know about Rover (https://www.rover.com/)?",
+      "labels": [
+        "identity:N+U"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "U"
+      ],
+      "location_level": null,
+      "prompt_id": "P04"
+    },
+    {
+      "session_id": "S0035",
+      "round": 4,
+      "execution_order": 35,
+      "prompt": "What do you know about Rover (@roverdotcom on Instagram)?",
+      "labels": [
+        "identity:N+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P05"
+    },
+    {
+      "session_id": "S0036",
+      "round": 4,
+      "execution_order": 36,
+      "prompt": "What do you know about https://www.rover.com/ and @roverdotcom on Instagram?",
+      "labels": [
+        "identity:U+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P06"
+    },
+    {
+      "session_id": "S0037",
+      "round": 4,
+      "execution_order": 37,
+      "prompt": "What do you know about Rover (https://www.rover.com/, @roverdotcom on Instagram)?",
+      "labels": [
+        "identity:N+U+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "U",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P07"
+    },
+    {
+      "session_id": "S0038",
+      "round": 4,
+      "execution_order": 38,
+      "prompt": "What do you know about https://www.rover.com/ in Seattle?",
+      "labels": [
+        "geography:city"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": "city",
+      "prompt_id": "P08"
+    },
+    {
+      "session_id": "S0039",
+      "round": 4,
+      "execution_order": 39,
+      "prompt": "What do you know about https://www.rover.com/ in Washington?",
+      "labels": [
+        "geography:province"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": "province",
+      "prompt_id": "P09"
+    },
+    {
+      "session_id": "S0040",
+      "round": 4,
+      "execution_order": 40,
+      "prompt": "What do you know about https://www.rover.com/ in United States?",
+      "labels": [
+        "geography:country"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": "country",
+      "prompt_id": "P10"
+    },
+    {
+      "session_id": "S0041",
+      "round": 5,
+      "execution_order": 41,
+      "prompt": "What do you know about Rover?",
+      "labels": [
+        "identity:N"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N"
+      ],
+      "location_level": null,
+      "prompt_id": "P01"
+    },
+    {
+      "session_id": "S0042",
+      "round": 5,
+      "execution_order": 42,
+      "prompt": "What do you know about https://www.rover.com/?",
+      "labels": [
+        "identity:U",
+        "geography:G0",
+        "language:en"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": null,
+      "prompt_id": "P02"
+    },
+    {
+      "session_id": "S0043",
+      "round": 5,
+      "execution_order": 43,
+      "prompt": "What do you know about @roverdotcom on Instagram?",
+      "labels": [
+        "identity:H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P03"
+    },
+    {
+      "session_id": "S0044",
+      "round": 5,
+      "execution_order": 44,
+      "prompt": "What do you know about Rover (https://www.rover.com/)?",
+      "labels": [
+        "identity:N+U"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "U"
+      ],
+      "location_level": null,
+      "prompt_id": "P04"
+    },
+    {
+      "session_id": "S0045",
+      "round": 5,
+      "execution_order": 45,
+      "prompt": "What do you know about Rover (@roverdotcom on Instagram)?",
+      "labels": [
+        "identity:N+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P05"
+    },
+    {
+      "session_id": "S0046",
+      "round": 5,
+      "execution_order": 46,
+      "prompt": "What do you know about https://www.rover.com/ and @roverdotcom on Instagram?",
+      "labels": [
+        "identity:U+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P06"
+    },
+    {
+      "session_id": "S0047",
+      "round": 5,
+      "execution_order": 47,
+      "prompt": "What do you know about Rover (https://www.rover.com/, @roverdotcom on Instagram)?",
+      "labels": [
+        "identity:N+U+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "U",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P07"
+    },
+    {
+      "session_id": "S0048",
+      "round": 5,
+      "execution_order": 48,
+      "prompt": "What do you know about https://www.rover.com/ in Seattle?",
+      "labels": [
+        "geography:city"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": "city",
+      "prompt_id": "P08"
+    },
+    {
+      "session_id": "S0049",
+      "round": 5,
+      "execution_order": 49,
+      "prompt": "What do you know about https://www.rover.com/ in Washington?",
+      "labels": [
+        "geography:province"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": "province",
+      "prompt_id": "P09"
+    },
+    {
+      "session_id": "S0050",
+      "round": 5,
+      "execution_order": 50,
+      "prompt": "What do you know about https://www.rover.com/ in United States?",
+      "labels": [
+        "geography:country"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": "country",
+      "prompt_id": "P10"
+    },
+    {
+      "session_id": "S0051",
+      "round": 6,
+      "execution_order": 51,
+      "prompt": "What do you know about Rover?",
+      "labels": [
+        "identity:N"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N"
+      ],
+      "location_level": null,
+      "prompt_id": "P01"
+    },
+    {
+      "session_id": "S0052",
+      "round": 6,
+      "execution_order": 52,
+      "prompt": "What do you know about https://www.rover.com/?",
+      "labels": [
+        "identity:U",
+        "geography:G0",
+        "language:en"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": null,
+      "prompt_id": "P02"
+    },
+    {
+      "session_id": "S0053",
+      "round": 6,
+      "execution_order": 53,
+      "prompt": "What do you know about @roverdotcom on Instagram?",
+      "labels": [
+        "identity:H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P03"
+    },
+    {
+      "session_id": "S0054",
+      "round": 6,
+      "execution_order": 54,
+      "prompt": "What do you know about Rover (https://www.rover.com/)?",
+      "labels": [
+        "identity:N+U"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "U"
+      ],
+      "location_level": null,
+      "prompt_id": "P04"
+    },
+    {
+      "session_id": "S0055",
+      "round": 6,
+      "execution_order": 55,
+      "prompt": "What do you know about Rover (@roverdotcom on Instagram)?",
+      "labels": [
+        "identity:N+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P05"
+    },
+    {
+      "session_id": "S0056",
+      "round": 6,
+      "execution_order": 56,
+      "prompt": "What do you know about https://www.rover.com/ and @roverdotcom on Instagram?",
+      "labels": [
+        "identity:U+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P06"
+    },
+    {
+      "session_id": "S0057",
+      "round": 6,
+      "execution_order": 57,
+      "prompt": "What do you know about Rover (https://www.rover.com/, @roverdotcom on Instagram)?",
+      "labels": [
+        "identity:N+U+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "U",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P07"
+    },
+    {
+      "session_id": "S0058",
+      "round": 6,
+      "execution_order": 58,
+      "prompt": "What do you know about https://www.rover.com/ in Seattle?",
+      "labels": [
+        "geography:city"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": "city",
+      "prompt_id": "P08"
+    },
+    {
+      "session_id": "S0059",
+      "round": 6,
+      "execution_order": 59,
+      "prompt": "What do you know about https://www.rover.com/ in Washington?",
+      "labels": [
+        "geography:province"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": "province",
+      "prompt_id": "P09"
+    },
+    {
+      "session_id": "S0060",
+      "round": 6,
+      "execution_order": 60,
+      "prompt": "What do you know about https://www.rover.com/ in United States?",
+      "labels": [
+        "geography:country"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": "country",
+      "prompt_id": "P10"
+    },
+    {
+      "session_id": "S0061",
+      "round": 7,
+      "execution_order": 61,
+      "prompt": "What do you know about Rover?",
+      "labels": [
+        "identity:N"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N"
+      ],
+      "location_level": null,
+      "prompt_id": "P01"
+    },
+    {
+      "session_id": "S0062",
+      "round": 7,
+      "execution_order": 62,
+      "prompt": "What do you know about https://www.rover.com/?",
+      "labels": [
+        "identity:U",
+        "geography:G0",
+        "language:en"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": null,
+      "prompt_id": "P02"
+    },
+    {
+      "session_id": "S0063",
+      "round": 7,
+      "execution_order": 63,
+      "prompt": "What do you know about @roverdotcom on Instagram?",
+      "labels": [
+        "identity:H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P03"
+    },
+    {
+      "session_id": "S0064",
+      "round": 7,
+      "execution_order": 64,
+      "prompt": "What do you know about Rover (https://www.rover.com/)?",
+      "labels": [
+        "identity:N+U"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "U"
+      ],
+      "location_level": null,
+      "prompt_id": "P04"
+    },
+    {
+      "session_id": "S0065",
+      "round": 7,
+      "execution_order": 65,
+      "prompt": "What do you know about Rover (@roverdotcom on Instagram)?",
+      "labels": [
+        "identity:N+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P05"
+    },
+    {
+      "session_id": "S0066",
+      "round": 7,
+      "execution_order": 66,
+      "prompt": "What do you know about https://www.rover.com/ and @roverdotcom on Instagram?",
+      "labels": [
+        "identity:U+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P06"
+    },
+    {
+      "session_id": "S0067",
+      "round": 7,
+      "execution_order": 67,
+      "prompt": "What do you know about Rover (https://www.rover.com/, @roverdotcom on Instagram)?",
+      "labels": [
+        "identity:N+U+H"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "N",
+        "U",
+        "H"
+      ],
+      "location_level": null,
+      "prompt_id": "P07"
+    },
+    {
+      "session_id": "S0068",
+      "round": 7,
+      "execution_order": 68,
+      "prompt": "What do you know about https://www.rover.com/ in Seattle?",
+      "labels": [
+        "geography:city"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": "city",
+      "prompt_id": "P08"
+    },
+    {
+      "session_id": "S0069",
+      "round": 7,
+      "execution_order": 69,
+      "prompt": "What do you know about https://www.rover.com/ in Washington?",
+      "labels": [
+        "geography:province"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": "province",
+      "prompt_id": "P09"
+    },
+    {
+      "session_id": "S0070",
+      "round": 7,
+      "execution_order": 70,
+      "prompt": "What do you know about https://www.rover.com/ in United States?",
+      "labels": [
+        "geography:country"
+      ],
+      "language": "en",
+      "identity_signals": [
+        "U"
+      ],
+      "location_level": "country",
+      "prompt_id": "P10"
+    }
+  ]
+}
