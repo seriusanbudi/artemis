@@ -34,3 +34,6 @@ No running experiments yet.
 - [[2026-09-04 Rover and Supabase Agent Glasses Gap Test]] — Rover passed 70/70
   and Supabase passed 49/49 scored sessions plus a 7/7 geography bootstrap;
   established three distinct identity-maturity states; [open dashboard](agent-glasses-dashboard.html)
+- [[2026-09-04 Agent Glasses Product Learnings]] — synthesis of what the
+  product design and three-business benchmark establish, what v1 can claim,
+  and the recommended before-and-after validation

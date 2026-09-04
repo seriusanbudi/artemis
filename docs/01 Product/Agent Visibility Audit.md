@@ -136,3 +136,4 @@ errors, and source changes for the target business.
 - [[Risks and Constraints]]
 - [[Decision Log]]
 - [[2026-09-04 V1 Is Business-Type Agnostic]]
+- [[2026-09-04 Agent Glasses Product Learnings]]

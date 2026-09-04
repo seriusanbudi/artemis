@@ -44,7 +44,8 @@ aliases:
 > all resolved perfectly when given their exact URL, but their unanchored
 > identities differ sharply: Arsent is URL-dependent, Rover is recognized but
 > often clarification-fragile, and Supabase is self-sufficient. See
-> [[2026-09-04 Rover and Supabase Agent Glasses Gap Test]].
+> [[2026-09-04 Rover and Supabase Agent Glasses Gap Test]] and
+> [[2026-09-04 Agent Glasses Product Learnings]].
 
 ## Quick capture
 
